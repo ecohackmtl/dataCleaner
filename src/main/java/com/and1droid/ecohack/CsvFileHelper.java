@@ -2,8 +2,9 @@ package com.and1droid.ecohack;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -15,15 +16,17 @@ public class CsvFileHelper {
 
         List<String> result = new ArrayList<String>();
 
-        FileReader fr = new FileReader(file);
-        BufferedReader br = new BufferedReader(fr);
+        FileInputStream fis = new FileInputStream(file);
+        InputStreamReader isr = new InputStreamReader(fis, "utf8");
+        BufferedReader br = new BufferedReader(isr);
 
         for (String line = br.readLine(); line != null; line = br.readLine()) {
             result.add(line);
         }
 
+        fis.close();
+        isr.close();
         br.close();
-        fr.close();
 
         return result;
     }

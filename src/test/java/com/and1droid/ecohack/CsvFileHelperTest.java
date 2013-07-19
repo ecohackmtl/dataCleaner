@@ -30,5 +30,9 @@ public class CsvFileHelperTest {
         for (String column : columns) {
             System.out.println(column);
         }
+        for (int i = 1; i < lines.size(); i++) {
+            System.out.println("i=" + i);
+            assertEquals(26, lines.get(i).split(",").length);
+        }
     }
 }

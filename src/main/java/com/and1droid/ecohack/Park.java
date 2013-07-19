@@ -3,6 +3,7 @@ package com.and1droid.ecohack;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.jdo.annotations.PrimaryKey;
 import javax.persistence.CascadeType;
 import javax.persistence.Embeddable;
 import javax.persistence.Embedded;
@@ -14,11 +15,12 @@ import javax.persistence.OneToOne;
 public class Park {
 
     @Id
+    @PrimaryKey
     private final String parkID;
 
     @Embedded
     @OneToOne(cascade = CascadeType.DETACH)
-    private final List<LatLng> boundaries = new ArrayList<Park.LatLng>();
+    private final List<LatLng> boundaries = new ArrayList<LatLng>();
 
     private final String name;
 
