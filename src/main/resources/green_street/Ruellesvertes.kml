@@ -1,0 +1,3233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Ruelles vertes</name>
+  <description><![CDATA[]]></description>
+  <Style id="style100">
+    <LineStyle>
+      <color>4DFF3333</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style113">
+    <LineStyle>
+      <color>4DFF3333</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style65">
+    <LineStyle>
+      <color>FF00CCFF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style153">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style5">
+    <LineStyle>
+      <color>E633CCFF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style33">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style78">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style23">
+    <LineStyle>
+      <color>FF33CCFF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style131">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style149">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style101">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style58">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style143">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style146">
+    <LineStyle>
+      <color>FF00CCFF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style103">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style41">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style56">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style44">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style136">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style72">
+    <LineStyle>
+      <color>FF00CCFF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style63">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style28">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style54">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style122">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style129">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style14">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style102">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style130">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style155">
+    <LineStyle>
+      <color>FF00CCFF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style43">
+    <LineStyle>
+      <color>FF00CCFF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style15">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style55">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style109">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style7">
+    <LineStyle>
+      <color>FF00CCFF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style147">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style21">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style30">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style11">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style112">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style123">
+    <LineStyle>
+      <color>4DFF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style84">
+    <LineStyle>
+      <color>4DFF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style29">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style3">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style53">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style90">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style95">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style80">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style26">
+    <LineStyle>
+      <color>4DFF6633</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style34">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style107">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style85">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style114">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style125">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style139">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style71">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style27">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style32">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style45">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style150">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style118">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style81">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style97">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style87">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style57">
+    <LineStyle>
+      <color>4DFF3333</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style52">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style134">
+    <LineStyle>
+      <color>4DFF3333</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style110">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style37">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style64">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style12">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style98">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style48">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style8">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style148">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style137">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style66">
+    <LineStyle>
+      <color>40000000</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>03FF0000</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="style83">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style17">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style86">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style40">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style156">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style73">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style111">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style77">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style61">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style35">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style19">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style105">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style151">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style142">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style38">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style74">
+    <LineStyle>
+      <color>7300CCFF</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style18">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style88">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style140">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style116">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style36">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style24">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style104">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style91">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style144">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style50">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style69">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style128">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style154">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style39">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style1">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style51">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style20">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style70">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style121">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style67">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style152">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>7</width>
+    </LineStyle>
+  </Style>
+  <Style id="style75">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>7</width>
+    </LineStyle>
+  </Style>
+  <Style id="style96">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>7</width>
+    </LineStyle>
+  </Style>
+  <Style id="style59">
+    <LineStyle>
+      <color>73009900</color>
+      <width>8</width>
+    </LineStyle>
+  </Style>
+  <Style id="style6">
+    <LineStyle>
+      <color>73009900</color>
+      <width>8</width>
+    </LineStyle>
+  </Style>
+  <Style id="style124">
+    <LineStyle>
+      <color>73009900</color>
+      <width>8</width>
+    </LineStyle>
+  </Style>
+  <Style id="style92">
+    <LineStyle>
+      <color>73009900</color>
+      <width>8</width>
+    </LineStyle>
+  </Style>
+  <Style id="style42">
+    <LineStyle>
+      <color>73009900</color>
+      <width>8</width>
+    </LineStyle>
+  </Style>
+  <Style id="style115">
+    <LineStyle>
+      <color>73009900</color>
+      <width>8</width>
+    </LineStyle>
+  </Style>
+  <Style id="style127">
+    <LineStyle>
+      <color>73009900</color>
+      <width>8</width>
+    </LineStyle>
+  </Style>
+  <Style id="style141">
+    <LineStyle>
+      <color>73009900</color>
+      <width>8</width>
+    </LineStyle>
+  </Style>
+  <Style id="style13">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style106">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style132">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style16">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style120">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style4">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style89">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style94">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style25">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style119">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style145">
+    <LineStyle>
+      <color>73006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style135">
+    <LineStyle>
+      <color>73006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style79">
+    <LineStyle>
+      <color>73009900</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style31">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style46">
+    <LineStyle>
+      <color>73009900</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style60">
+    <LineStyle>
+      <color>4DFF3333</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style138">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style68">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style49">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style126">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style99">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style2">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style108">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style133">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style10">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style93">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style117">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style82">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style62">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style47">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style76">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style22">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style9">
+    <LineStyle>
+      <color>FF006600</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Arrondissement Plateau-Mont-Royal</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style100</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.559486,45.540016,0.000000
+        -73.570854,45.509415,0.000000
+        -73.573517,45.504990,0.000000
+        -73.580078,45.508179,0.000000
+        -73.578278,45.511757,0.000000
+        -73.589394,45.516781,0.000000
+        -73.589912,45.516270,0.000000
+        -73.610893,45.525108,0.000000
+        -73.609261,45.526821,0.000000
+        -73.606476,45.528027,0.000000
+        -73.597420,45.529079,0.000000
+        -73.583557,45.540440,0.000000
+        -73.579224,45.541676,0.000000
+        -73.559486,45.540016,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Arrondissement Ville-Marie / District Peter-McGill</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style113</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.573639,45.504730,0.000000
+        -73.580460,45.508190,0.000000
+        -73.578659,45.511608,0.000000
+        -73.589394,45.516548,0.000000
+        -73.589951,45.516071,0.000000
+        -73.591492,45.514381,0.000000
+        -73.596298,45.514500,0.000000
+        -73.597366,45.513569,0.000000
+        -73.596130,45.512791,0.000000
+        -73.596642,45.512192,0.000000
+        -73.596558,45.511639,0.000000
+        -73.595703,45.511250,0.000000
+        -73.594841,45.511101,0.000000
+        -73.593513,45.510681,0.000000
+        -73.591583,45.509720,0.000000
+        -73.591057,45.508942,0.000000
+        -73.591278,45.508160,0.000000
+        -73.592438,45.506680,0.000000
+        -73.593079,45.505779,0.000000
+        -73.593552,45.504940,0.000000
+        -73.593681,45.504311,0.000000
+        -73.594200,45.503101,0.000000
+        -73.595009,45.502682,0.000000
+        -73.596512,45.502201,0.000000
+        -73.597672,45.501572,0.000000
+        -73.599297,45.500488,0.000000
+        -73.603592,45.496639,0.000000
+        -73.605011,45.495548,0.000000
+        -73.606560,45.495399,0.000000
+        -73.606339,45.495071,0.000000
+        -73.603943,45.494770,0.000000
+        -73.602989,45.495010,0.000000
+        -73.600777,45.494282,0.000000
+        -73.596367,45.492031,0.000000
+        -73.595657,45.492569,0.000000
+        -73.582573,45.488449,0.000000
+        -73.583038,45.488209,0.000000
+        -73.581284,45.486561,0.000000
+        -73.572372,45.492561,0.000000
+        -73.567177,45.490070,0.000000
+        -73.563721,45.494350,0.000000
+        -73.561363,45.498360,0.000000
+        -73.564430,45.500210,0.000000
+        -73.571060,45.503941,0.000000
+        -73.573311,45.504902,0.000000
+        -73.573639,45.504730,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Saint-Urbain</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style65</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.580055,45.516048,0.000000
+        -73.579239,45.515659,0.000000
+        -73.579498,45.515808,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Rue Barrette</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"><span style="font-weight:bold"></span><font size="2">Année d'inauguration : 2006 <br><br></font><br><br style="font-weight:bold"></span></font><br>]]></description>
+    <styleUrl>#style153</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.581802,45.536190,0.000000
+        -73.582382,45.535542,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle St-Grégoire &amp; Papineau/Marquette</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"><span style="font-weight:bold"></span><font size="2"><span style="font-weight:bold">Année d'inauguration:</span> 2005</font></span></font><br><br><br>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.585548,45.537315,0.000000
+        -73.584152,45.536686,0.000000
+        -73.583290,45.536324,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Masson/Laurier &amp; Chabot/Cartier</name>
+    <description><![CDATA[<b>Année d'inauguration : Inconnue. <br>Phase 2 réalisée en 2012</b><br>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.582825,45.538036,0.000000
+        -73.579826,45.536682,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Masson/Laurier &amp; Cartier/Papineau</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><br style="font-weight:bold"><font size="2"><span style="font-weight:bold">Année d'inauguration: 2004</span></font></font><br><br><img src="http://www.velo.qc.ca/files/ecoquartier/Cartier.JPG" style="width:247px"><br>]]></description>
+    <styleUrl>#style78</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.583344,45.537464,0.000000
+        -73.580421,45.536144,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Gilford/Mont-Royal &amp; Chabot/De Bordeaux</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><br style="font-weight:bold"><font size="2"><span style="font-weight:bold">Année d'inauguration: 2003</span></font></font><font size="2"><br></font><br>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.576950,45.535301,0.000000
+        -73.574280,45.534100,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Gilford/Mont-Royal &amp; De Bordeaux/Chabot</name>
+    <description><![CDATA[<font size="2"><span style="font-weight:bold">Année d'inauguration: 1999</span></font><br><br><br>]]></description>
+    <styleUrl>#style131</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.576393,45.535751,0.000000
+        -73.573807,45.534580,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Rue Lafrance Nord</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><font size="2"><br style="font-weight:bold"><span style="font-weight:bold">Année d'inauguration: 2006</span></font></font><br><br><img src="http://www.velo.qc.ca/files/ecoquartier/Lafrance%20Nord.JPG" style="width:247px"><br><br><img src="http://www.velo.qc.ca/files/ecoquartier/Lafrance%20Nord2.JPG" style="width:247px"><br>]]></description>
+    <styleUrl>#style149</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.571030,45.535782,0.000000
+        -73.569908,45.535240,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Rachel/Gauthier &amp; Dorion/Cartier</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><font size="2"><span style="font-weight:bold">Année d'inauguration: 2000</span></font></font><br><br><img src="http://www.velo.qc.ca/files/ecoquartier/Dorioncartier.JPG" style="width:247px"><br><br>]]></description>
+    <styleUrl>#style101</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.568497,45.531364,0.000000
+        -73.566750,45.530567,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Rachel/Gauthier &amp; De Bordeaux/Dorion</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><span style="font-weight:bold">Année d'inauguration: 1999</span></font><br><br><img src="http://www.velo.qc.ca/files/ecoquartier/dorionbordeaux.JPG" style="width:247px"><br>]]></description>
+    <styleUrl>#style58</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.568016,45.531876,0.000000
+        -73.566299,45.531033,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Marie-Anne/Rachel &amp; Chambord/Brébeuf</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><font size="2"><span style="font-weight:bold">Année d'inauguration: 2008</span></font></font> <br><br><img src="http://www.velo.qc.ca/files/ecoquartier/Br%C3%A9beufchambord1flat.jpg" style="width:247px"><br><br><img src="http://www.velo.qc.ca/files/ecoquartier/Br%C3%A9beufchambord2.JPG" style="width:247px"><br><br>]]></description>
+    <styleUrl>#style143</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.575317,45.528389,0.000000
+        -73.573402,45.527454,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Gilford/Mont-Royal &amp; Fabre/Garnier</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><font size="2"><span style="font-weight:bold">Année d'inauguration: 2008</span></font></font><br>]]></description>
+    <styleUrl>#style146</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.579025,45.532520,0.000000
+        -73.576813,45.531498,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Gilford/Généreux &amp; Lanaudière/Chambord</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><font size="2"><span style="font-weight:bold">Année d'inauguration: 2001</span></font></font><br>]]></description>
+    <styleUrl>#style103</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.580505,45.531528,0.000000
+        -73.577911,45.530327,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Gilford/Généreux &amp; Chambord/Brébeuf</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><font size="2"><span style="font-weight:bold">Année d'inauguration: 2001</span></font></font><br><br><font size="1"><span style="font-weight:bold"><img src="http://www.velo.qc.ca/files/ecoquartier/Gilford-chambord.jpg" style="width:247px"></span></font><br><br>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.580978,45.531006,0.000000
+        -73.578400,45.529770,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Brébeuf/Chambord &amp; Saint-Joseph/Gilford</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><font size="2"><span style="font-weight:bold"><span style="font-weight:bold"><span style="font-style:italic">Ruelle Modigliani</span><br></span>Année d'inauguration: 2000</span></font></font><br><font size="1"><span style="font-weight:bold"></span></font><br><img src="http://www.velo.qc.ca/files/ecoquartier/Modigliani.JPG" style="width:247px"><br>]]></description>
+    <styleUrl>#style56</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.582413,45.531712,0.000000
+        -73.581299,45.531185,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Napoléon/Roy &amp; Du Parc-Lafontaine/Mentana</name>
+    <description><![CDATA[<font size="2" style="font-weight:bold">Année d'inauguration : 1997</font><br><br>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.571198,45.523441,0.000000
+        -73.569473,45.522659,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Duluth/Napoléon &amp; Mentana/St-André</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><font size="2"><span style="font-weight:bold">Année d'inauguration : 2002 </span></font></font><br>]]></description>
+    <styleUrl>#style136</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.572372,45.523006,0.000000
+        -73.573189,45.523380,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Marie-Anne/Rachel &amp; Mentana/St-André</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><font size="2"><span style="font-weight:bold">Année d'inauguration: 2008</span></font></font><br><br><img src="http://www.velo.qc.ca/files/ecoquartier/HPIM1212_2.jpg" style="width:247px"><br>]]></description>
+    <styleUrl>#style72</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.577950,45.525646,0.000000
+        -73.575729,45.524616,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Bienville/Mont-Royal &amp; Mentana/St-André</name>
+    <description><![CDATA[<font size="2" style="font-weight:bold">Année d'inauguration: 2001</font><br><br><img src="http://www.velo.qc.ca/files/ecoquartier/Mtr-bienville.JPG" style="width:247px"><br><br>]]></description>
+    <styleUrl>#style63</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.580490,45.526810,0.000000
+        -73.582092,45.527531,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Gilford/Bienville &amp; Mentana/St-André</name>
+    <description><![CDATA[<font size="2" style="font-weight:bold">Année d'inauguration: 2000</font><br>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.582275,45.527622,0.000000
+        -73.584358,45.528561,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Laurier/ St-Joseph &amp; Mentana/St-André</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"><span style="font-weight:bold"></span></span><font size="2"><span style="font-weight:bold">Année d'inauguration: 2003<br><br></span></font></font><img src="http://www.velo.qc.ca/files/ecoquartier/SamLaurier.JPG" style="width:247px"><br><br><img src="http://www.velo.qc.ca/files/ecoquartier/Samhuard.JPG" style="width:247px">&nbsp;<br>]]></description>
+    <styleUrl>#style54</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.585655,45.529079,0.000000
+        -73.586853,45.529621,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Mont-Royal/Marie-Anne &amp; Berri/Rivard</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span><font size="2"><span style="font-weight:bold">Année d'inauguration: 1999</span></font></font><br>]]></description>
+    <styleUrl>#style122</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.579971,45.523712,0.000000
+        -73.582092,45.524628,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Hôtel-de-Ville/Laval &amp; Sherbrooke/Prince-Arthur.</name>
+    <description><![CDATA[<span style="font-weight:bold">Année d'inauguration: 2007</span>, <b>phase 2 réalisée en 2012</b><br><br>]]></description>
+    <styleUrl>#style129</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.570763,45.515850,0.000000
+        -73.569000,45.515030,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Henri-Julien/Drolet &amp; Des Pins/Square Saint Louis</name>
+    <description><![CDATA[<span style="font-weight:bold"></span><font size="1" style="font-weight:bold"><span style="font-style:italic">Ruelle Champêtre</span><br>Année d'inauguration : 2006</font><br><br><br>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.572456,45.518036,0.000000
+        -73.570618,45.517162,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Demers</name>
+    <description><![CDATA[<font size="2"><span style="font-style:italic;font-weight:bold">Ruelle Demers</span></font><br><font size="1"><br><a href="http://www.onf.ca/film/Les_fleurs_c_est_pour_Rosemont/" target="_blank">http://www.onf.ca/film/Les_fleurs_c_est_pour_Rosemont/</a><br>Visionnez le documentaire de Jacques Giraldeau datant de 1969, qui témoigne du travail accompli par cinq étudiants en architecture. Leur projet, rénover la rue Demers, avec l'aide des résidents. </font><br><br><img src="http://www.ecojm.org/images/IMG_2588.JPG" style="width:243px"><br><br>]]></description>
+    <styleUrl>#style102</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.588402,45.523247,0.000000
+        -73.587479,45.524269,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Hôtel de Ville/Laval &amp; Rachel/Duluth</name>
+    <description><![CDATA[<font size="2" style="font-weight:bold"><span style="font-weight:bold;font-style:italic">Verte Ruelle</span><br>Année d'inauguration : 2009</font><br style="font-weight:bold"><br><br>]]></description>
+    <styleUrl>#style130</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.579720,45.520061,0.000000
+        -73.577530,45.519028,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Mont-Royal/Marie-Anne &amp; Mentana/St-André</name>
+    <description><![CDATA[<font size="2" style="font-weight:bold">Année d'inauguration: 2001</font><br>]]></description>
+    <styleUrl>#style155</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.580002,45.526489,0.000000
+        -73.578545,45.525829,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Mont-Royal/Marie-Anne &amp; Marquette/Fabre</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span></font><font size="2"><span style="font-weight:bold">Année d'inauguration: 1999</span><br></font><br>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.575089,45.531658,0.000000
+        -73.573753,45.531071,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Fairmount/Laurier &amp; Jeanne-Mance/Parc.</name>
+    <description><![CDATA[<div dir="ltr" style="font-weight:bold"><font size="2">Année d'inauguration : 2009 - phase 2 réalisée en 2012<br></font></div>
+<div dir="ltr"><font size="2"><br></font></div>
+
+<div dir="ltr"><br>&nbsp;</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.597282,45.520744,0.000000
+        -73.595596,45.520000,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Hutchison</name>
+    <description><![CDATA[<div style="font-weight:bold"><font size="1">Lieu : Ruelle située entre les rues Milton, Prince-Arthur, Du Parc et Hutchinson.</font></div>
+<div><font size="1"></font>&nbsp;</div>
+<div><img src="http://www.ecojm.org/images/IMG_2793.JPG" style="width:237px"></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>]]></description>
+    <styleUrl>#style55</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.575905,45.510113,0.000000
+        -73.573982,45.509171,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Henri-Julien/Drolet &amp; Marie-Anne et Mont-Royal</name>
+    <description><![CDATA[<div><font size="1"><b><br></b></font></div>
+<font size="1"><b>Ruelle du Clown Triste<br>Année d'inauguration: 2012</b></font><br><br>
+<div>&nbsp;</div>]]></description>
+    <styleUrl>#style109</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.583580,45.523113,0.000000
+        -73.581345,45.522087,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Laval/Henri-Julien &amp; Rachel/Duluth </name>
+    <description><![CDATA[<br><div><br></div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.579308,45.520519,0.000000
+        -73.577095,45.519485,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Henri-Julien/Drolet &amp; Duluth/Roy</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style147</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.576569,45.519917,0.000000
+        -73.573410,45.518467,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Verte Papillon</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.581795,45.487186,0.000000
+        -73.581619,45.487255,0.000000
+        -73.581375,45.487305,0.000000
+        -73.580856,45.487411,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Tupper</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold">Lieu: Ruelle située entre la rue St-Mathieu, la rue Du Fort, la rue Tupper et la rue Baile.<br><br>Cette ruelle verte a été inaugurée en juin 2008. </span></font><br>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.579689,45.491985,0.000000
+        -73.579430,45.491829,0.000000
+        -73.579880,45.491428,0.000000
+        -73.580139,45.491573,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Chomedey</name>
+    <description><![CDATA[<font size="1" style="font-weight:bold">Lieu: Ruelle située entre la rue Du Fort, la rue Chomedey, le boulevard de Maisonneuve Ouest et la rue Ste-Catherine Ouest</font>.<br><br><font size="1" style="font-weight:bold">Cette ruelle verte a été inaugurée en 2006. Elle était la première ruelle verte à Ville-Marie.</font> <br><br><br><br><br>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.583473,45.491886,0.000000
+        -73.582878,45.491474,0.000000
+        -73.583160,45.491680,0.000000
+        -73.583397,45.491508,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Hawarden</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style112</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.580688,45.487503,0.000000
+        -73.580368,45.487720,0.000000
+        -73.579666,45.488190,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Arrondissement Ville-Marie / District Sainte-Marie</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style123</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.559265,45.539970,0.000000
+        -73.548668,45.538918,0.000000
+        -73.541031,45.532486,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Arrondissement Ville-Marie / District Sainte-Marie</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style84</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.564209,45.526993,0.000000
+        -73.545326,45.518513,0.000000
+        -73.541122,45.532646,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte La Promenade des Arts</name>
+    <description><![CDATA[<font size="1"><font size="2"><span style="font-weight:bold"><span style="font-weight:bold"></span></span>Située entre les rues Bordeaux, De Lorimier, Dubuc et De Rouen, réalisée en 2009. 1099 pi2 de plates-bandes, 24 arbres, 106 arbustes, 219 vivaces et 58 grimpantes. Une ruelle qui a pour vocation de devenir une galerie d’art à ciel ouvert. Projets artistiques en développement.<br style="font-weight:bold"></font><span style="font-weight:bold"><br></span></font>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.560486,45.529041,0.000000
+        -73.558678,45.528202,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte La Rivière</name>
+    <description><![CDATA[<font size="2" style="font-style:italic"><span style="font-weight:bold"><span style="font-weight:bold"></span></span></font><font size="1"><font size="2">Située entre Harmony, Parthenais, De Rouen et Larivière, réalisée en 2008. 3200 pi2 de plates-bandes, 2 arbres, 55 arbustes, 45 grimpantes et 980 vivaces. La première ruelle verte de Sainte-Marie, elle a de très larges plates-bandes et des airs de sous-bois.</font><span style="font-weight:bold"><font size="2"><br></font><br><br></span></font>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.559189,45.531433,0.000000
+        -73.557663,45.530720,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte La Pente Douce</name>
+    <description><![CDATA[Située entre les rues Iberville, Chapleau, De Rouen et Hochelaga, réalisée en 2009. 1013 pi2 de plates-bandes, 45 arbres, 94 arbustes, 40 vivaces, 15 grimpantes. La ruelle compte 5 stationnements écologiques avec une surface perméable et 2 bandes centrales pour capter le ruissellement des eaux de pluie. Un bel exemple en matière de gestion écologique de l’eau.<br>]]></description>
+    <styleUrl>#style53</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.559410,45.534561,0.000000
+        -73.557739,45.533848,0.000000
+        -73.557503,45.534138,0.000000
+        -73.557938,45.533588,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle des RuellardsRuelle Saint-Hubert/Saint-Christophe &amp; Ontario/De Maisonneuve</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"></span></font><font size="2"><span style="font-weight:bold"><span style="font-weight:bold"><span style="font-style:italic">Ruelle des Ruellards</span><br></span>Année d'inauguration: 2007</span></font><br><br>]]></description>
+    <styleUrl>#style90</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.563942,45.518085,0.000000
+        -73.560318,45.516464,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Sanguinet/St-Denis &amp; Sherbrooke/Ontario</name>
+    <description><![CDATA[<font size="2"><span style="font-weight:bold"><span style="font-weight:bold;font-style:italic">Ruelle Joly</span><br style="font-weight:bold"></span><span style="font-weight:bold">Année d'inauguration: 2008</span></font><br>]]></description>
+    <styleUrl>#style95</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.566635,45.515327,0.000000
+        -73.566254,45.515141,0.000000
+        -73.566048,45.515549,0.000000
+        -73.566017,45.515572,0.000000
+        -73.566444,45.515652,0.000000
+        -73.565437,45.515503,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Amherst/Wolfe/Robin/Maisonneuve</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"><br style="font-weight:bold"></span><font size="2"><span style="font-weight:bold">Année d'inauguration: 2009</span></font></font><br>]]></description>
+    <styleUrl>#style80</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.560287,45.519337,0.000000
+        -73.558716,45.518661,0.000000
+        -73.558601,45.518768,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Arrondissement Ville-Marie / District St-Jacques</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.560776,45.497787,0.000000
+        -73.555115,45.495625,0.000000
+        -73.552879,45.491531,0.000000
+        -73.539833,45.488041,0.000000
+        -73.542152,45.495564,0.000000
+        -73.542755,45.501099,0.000000
+        -73.542839,45.507652,0.000000
+        -73.545502,45.518478,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Gascon/Rachel/Frontenac</name>
+    <description><![CDATA[<font size="2" style="font-weight:bold"><span style="font-style:italic">Ruelle Gascon</span></font><font size="2"><br style="font-weight:bold"></font><font size="2"><span style="font-weight:bold">Année d'inauguration : 2010</span></font><br><b>Phase 2 réalisée en 2012</b><br><font size="1" style="font-weight:bold"><span style="font-style:italic"></span></font><br><br><br><br>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.563332,45.537609,0.000000
+        -73.562897,45.538044,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Cartier Chabot</name>
+    <description><![CDATA[<div dir="ltr"><br></div>]]></description>
+    <styleUrl>#style107</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.586082,45.539593,0.000000
+        -73.587524,45.540253,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Alma de Gaspé</name>
+    <description><![CDATA[<div dir="ltr"></div>]]></description>
+    <styleUrl>#style85</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.607170,45.532364,0.000000
+        -73.608742,45.533077,0.000000
+        -73.608917,45.532883,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Bourbonnière D&#39;orléans</name>
+    <description><![CDATA[<img src="http://soder.qc.ca/images/google/bourbonniere-orleans-sud%20st-joseph-web.jpg">]]></description>
+    <styleUrl>#style114</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.563866,45.554993,0.000000
+        -73.562370,45.554531,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle 15e/16e/St Joseph/Laurier</name>
+    <description><![CDATA[<img src="http://soder.qc.ca/images/google/15e-16e-web.jpg">]]></description>
+    <styleUrl>#style125</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.566574,45.552746,0.000000
+        -73.568130,45.553249,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle 30e/31e/St Zotique/Bélanger</name>
+    <description><![CDATA[<img src="http://soder.qc.ca/images/google/30-31ieme%20entre%20st-zotique%20et%20b%e9langer%20%283%29%20-%20web.JPG"><br>]]></description>
+    <styleUrl>#style139</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.582603,45.569706,0.000000
+        -73.579826,45.568825,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Bernadette</name>
+    <description><![CDATA[<div dir="ltr">Lieu: Entre les rues René-Lévesque et De la Gauchetière et Berri-Uqam et Saint-Denis<br><br>Complétée en 2010</div>]]></description>
+    <styleUrl>#style71</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.557053,45.512886,0.000000
+        -73.556900,45.513039,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Leclaire</name>
+    <description><![CDATA[<div dir="ltr">Lieu: Ruelle située entre les rues La Fontaine, Leclaire, Adam et Sicard. Année d&#39;inauguration: 2010</div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.534737,45.555973,0.000000
+        -73.533493,45.555561,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Vénelle</name>
+    <description><![CDATA[<div dir="ltr">Lieu: Ruelle située entre les rues Rouen, St-Clément, Ontario et Théodore. Année d&#39;inauguration: 2010</div>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.539299,45.559231,0.000000
+        -73.536507,45.558262,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Ogilvy - Jean-Talon</name>
+    <description><![CDATA[<div dir="ltr">Lieu: Ruelle située entre les rues Ogilvy, Jean-Talon, de l'Épée et Querbes.<br>Année d'inauguration 2009</div>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.625137,45.528450,0.000000
+        -73.625031,45.528645,0.000000
+        -73.624512,45.528507,0.000000
+        -73.623589,45.528236,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ligne 91</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style150</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.618919,45.534763,0.000000
+        -73.618896,45.534733,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ligne 102</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style118</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.587563,45.565868,0.000000
+        -73.586838,45.565624,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ligne 105</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style81</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.577644,45.577831,0.000000
+        -73.577332,45.577679,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte Des Érables </name>
+    <description><![CDATA[Située entre les rues Des Érables, De Lorimier, Ontario et Disraeli, réalisée en 2010. 1275 pi2 de plates-bandes, 11 arbres, 36 arbustes, 107 vivaces et 9 grimpantes. Nous avons ajouté 37 plantes vivaces et arbustes en 2011 dont plusieurs fraisiers. Cette ruelle a une partie entièrement fermée dans lequel un sentier de pierre nous permet de parcourir les aménagements. <br>]]></description>
+    <styleUrl>#style97</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.556419,45.528389,0.000000
+        -73.556602,45.528187,0.000000
+        -73.556435,45.528103,0.000000
+        -73.556602,45.528187,0.000000
+        -73.556839,45.527946,0.000000
+        -73.556610,45.528179,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte L&#39;Échappée Belle</name>
+    <description><![CDATA[Située entre les rues Wurtele, Florian, Ontario et De Rouen, phase 1 réalisée en 2010 et phase 2 en 2011. 1854 pi2 de plates-bandes en plus de l’aménagement d’un terrain vague de 1547 pi2 pour un total de 3400 pi2. 14 arbres de grandes envergures plantés dans les cours adjacentes à la ruelle, 43 arbres, 156 arbustes et 186 vivaces. <br>]]></description>
+    <styleUrl>#style87</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.552872,45.538055,0.000000
+        -73.553215,45.537537,0.000000
+        -73.553040,45.537792,0.000000
+        -73.550499,45.536880,0.000000
+        -73.550308,45.537170,0.000000
+        -73.550499,45.536888,0.000000
+        -73.550690,45.536606,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Arrondissement Villeray-St-Michel-Parc-Extention</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style57</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.614609,45.524757,0.000000
+        -73.620102,45.521992,0.000000
+        -73.648422,45.530651,0.000000
+        -73.636406,45.548325,0.000000
+        -73.629028,45.550732,0.000000
+        -73.622162,45.554935,0.000000
+        -73.647392,45.565876,0.000000
+        -73.638641,45.576931,0.000000
+        -73.636406,45.576328,0.000000
+        -73.628189,45.585846,0.000000
+        -73.600639,45.573738,0.000000
+        -73.601707,45.572536,0.000000
+        -73.587463,45.566380,0.000000
+        -73.587936,45.565807,0.000000
+        -73.587204,45.565449,0.000000
+        -73.603600,45.546577,0.000000
+        -73.607079,45.548141,0.000000
+        -73.612526,45.542549,0.000000
+        -73.614113,45.539185,0.000000
+        -73.618530,45.534885,0.000000
+        -73.621750,45.530975,0.000000
+        -73.618401,45.528538,0.000000
+        -73.613029,45.525654,0.000000
+        -73.614609,45.524757,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>25e/26e/St-Zotique/Bélanger</name>
+    <description><![CDATA[<img src="http://soder.qc.ca/images/google/25-26ieme-web%20%287%29.JPG"><br>Très belle ruelle, bien aménagée<br>]]></description>
+    <styleUrl>#style52</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.584587,45.566738,0.000000
+        -73.581924,45.565899,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Arrondissement Rosemont- Petite-Patrie</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style134</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.559303,45.540760,0.000000
+        -73.555870,45.545921,0.000000
+        -73.554153,45.554577,0.000000
+        -73.554413,45.565331,0.000000
+        -73.548836,45.573441,0.000000
+        -73.556129,45.575844,0.000000
+        -73.558533,45.578190,0.000000
+        -73.573898,45.583115,0.000000
+        -73.575607,45.580524,0.000000
+        -73.577072,45.578426,0.000000
+        -73.577888,45.577766,0.000000
+        -73.577415,45.577404,0.000000
+        -73.586983,45.565510,0.000000
+        -73.587112,45.565506,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Brecy/Hogan/Rachel/Sherbrooke</name>
+    <description><![CDATA[<div dir="ltr" style="font-weight:bold"><font size="2">Année d'inauguration: 2011</font></div>]]></description>
+    <styleUrl>#style110</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.561546,45.538383,0.000000
+        -73.561363,45.538555,0.000000
+        -73.560722,45.538322,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Saint-André/Mentana/Saint-Joseph/Gilford</name>
+    <description><![CDATA[<font size="2"><span style="font-weight:bold">Année d'inauguration: 2011</span></font><br>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.585068,45.528507,0.000000
+        -73.584633,45.528992,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Souvenir</name>
+    <description><![CDATA[Partie de la ruelle située entre Atwater et Lambert Closse. <br>]]></description>
+    <styleUrl>#style64</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.582664,45.487915,0.000000
+        -73.581383,45.488281,0.000000
+        -73.581390,45.488289,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Seymour</name>
+    <description><![CDATA[Ruelle vert créée en 2008. Un site de compostage est disponible au bout de la ruelle sur Hope<br>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.580635,45.489666,0.000000
+        -73.580460,45.489887,0.000000
+        -73.581299,45.490246,0.000000
+        -73.581070,45.490501,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Saint Mathieu</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style98</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.578796,45.493069,0.000000
+        -73.579132,45.493240,0.000000
+        -73.579552,45.492870,0.000000
+        -73.579247,45.492714,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Sainte-Catherine/Adam &amp; Bourbonnière/d&#39;Orléans</name>
+    <description><![CDATA[<div dir="ltr">Année d'inauguration : 2011</div>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.538757,45.546997,0.000000
+        -73.537254,45.546455,0.000000
+        -73.537254,45.546455,0.000000
+        -73.537254,45.546455,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte 2011: 5eme-6eme/Holt-Dandurand</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style8</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.578476,45.549061,0.000000
+        -73.578758,45.548664,0.000000
+        -73.578659,45.548820,0.000000
+        -73.580215,45.549309,0.000000
+        -73.580032,45.549541,0.000000
+        -73.580330,45.549114,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte 2011: 5eme-6eme/Holt-Dandurand</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style148</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.581116,45.549362,0.000000
+        -73.580879,45.549797,0.000000
+        -73.581017,45.549564,0.000000
+        -73.582512,45.550022,0.000000
+        -73.582359,45.550262,0.000000
+        -73.582565,45.549789,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte 2011: 2eme-3eme/Holt-Dandurand</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style137</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.579720,45.546982,0.000000
+        -73.579567,45.547192,0.000000
+        -73.580833,45.547535,0.000000
+        -73.581223,45.547672,0.000000
+        -73.581123,45.547874,0.000000
+        -73.581360,45.547478,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Arrondissement La Petite Patire</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style66</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -73.612473,45.525684,0.000000
+            -73.616982,45.527725,0.000000
+            -73.616920,45.528870,0.000000
+            -73.617218,45.529457,0.000000
+            -73.617538,45.529861,0.000000
+            -73.617950,45.530312,0.000000
+            -73.618568,45.530552,0.000000
+            -73.619537,45.530781,0.000000
+            -73.620331,45.530945,0.000000
+            -73.620995,45.531017,0.000000
+            -73.621529,45.531124,0.000000
+            -73.619705,45.533184,0.000000
+            -73.618294,45.534763,0.000000
+            -73.617538,45.535091,0.000000
+            -73.616768,45.535770,0.000000
+            -73.614365,45.538307,0.000000
+            -73.613762,45.539314,0.000000
+            -73.613289,45.540428,0.000000
+            -73.612518,45.541855,0.000000
+            -73.611038,45.543526,0.000000
+            -73.609169,45.545582,0.000000
+            -73.607025,45.547928,0.000000
+            -73.603508,45.546349,0.000000
+            -73.601341,45.548725,0.000000
+            -73.597565,45.553230,0.000000
+            -73.593338,45.558102,0.000000
+            -73.587349,45.565025,0.000000
+            -73.580872,45.572414,0.000000
+            -73.581573,45.572685,0.000000
+            -73.578079,45.576832,0.000000
+            -73.577240,45.577732,0.000000
+            -73.577713,45.577854,0.000000
+            -73.577286,45.578529,0.000000
+            -73.575912,45.578136,0.000000
+            -73.572563,45.582825,0.000000
+            -73.558449,45.578121,0.000000
+            -73.556084,45.575840,0.000000
+            -73.549049,45.573467,0.000000
+            -73.554413,45.565327,0.000000
+            -73.554626,45.564156,0.000000
+            -73.554626,45.563164,0.000000
+            -73.554367,45.558327,0.000000
+            -73.554756,45.552464,0.000000
+            -73.555267,45.547749,0.000000
+            -73.555351,45.547340,0.000000
+            -73.556274,45.545582,0.000000
+            -73.557716,45.542774,0.000000
+            -73.558853,45.540592,0.000000
+            -73.559280,45.539917,0.000000
+            -73.564133,45.540428,0.000000
+            -73.567802,45.540806,0.000000
+            -73.568016,45.540775,0.000000
+            -73.568420,45.540833,0.000000
+            -73.568512,45.540848,0.000000
+            -73.569427,45.540985,0.000000
+            -73.569557,45.540939,0.000000
+            -73.576256,45.541569,0.000000
+            -73.577545,45.541599,0.000000
+            -73.579262,45.541527,0.000000
+            -73.578484,45.541553,0.000000
+            -73.580055,45.541328,0.000000
+            -73.581726,45.540970,0.000000
+            -73.583206,45.540443,0.000000
+            -73.584106,45.539978,0.000000
+            -73.585312,45.539196,0.000000
+            -73.586792,45.537964,0.000000
+            -73.588722,45.536324,0.000000
+            -73.592819,45.532780,0.000000
+            -73.594925,45.530960,0.000000
+            -73.595116,45.530853,0.000000
+            -73.595863,45.530239,0.000000
+            -73.597023,45.529667,0.000000
+            -73.598099,45.529259,0.000000
+            -73.599426,45.528778,0.000000
+            -73.600739,45.528568,0.000000
+            -73.602585,45.528358,0.000000
+            -73.604042,45.528374,0.000000
+            -73.605415,45.528374,0.000000
+            -73.606918,45.528297,0.000000
+            -73.608292,45.527969,0.000000
+            -73.609451,45.527367,0.000000
+            -73.610413,45.526764,0.000000
+            -73.612473,45.525684,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte 2011: Alywin-Des Cuvillier/Rachel-Sherbrooke</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style83</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.558678,45.547565,0.000000
+        -73.558350,45.548145,0.000000
+        -73.558556,45.547775,0.000000
+        -73.556107,45.547043,0.000000
+        -73.555916,45.547409,0.000000
+        -73.556206,45.546844,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte 2011: Joliette-De Chambly/Rachel-Sherbrooke</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style17</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.557137,45.549438,0.000000
+        -73.557343,45.549068,0.000000
+        -73.555893,45.548634,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte 2011: Charlemagne-Jeanne d&#39;arc/Rachel-Sherbrooke</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style86</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.555099,45.553738,0.000000
+        -73.555298,45.553326,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte 2011: Alexandra-Marconi</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style40</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.620186,45.531872,0.000000
+        -73.618973,45.531319,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte 2011: Fabre-Marquette/St-Zotique-Bélanger</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style156</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.604141,45.545017,0.000000
+        -73.603912,45.545265,0.000000
+        -73.602386,45.544533,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte 2011: 15eme-16eme/Beaubien-St-Zotique</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style73</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.586800,45.559383,0.000000
+        -73.587013,45.559048,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte 2011: 39eme-40eme/Beaubien-Bellechasse</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style111</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.567444,45.571926,0.000000
+        -73.567757,45.571442,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle du PACC: Châteaubriand-St-Vallier/Beaubien-Bellechasse</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style77</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.603958,45.535046,0.000000
+        -73.600975,45.533726,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle du PACC: Châteaubriand-St-Vallier/Bellechasse-Rosemont</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style61</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.600838,45.533604,0.000000
+        -73.597672,45.532192,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte Saint-Amant</name>
+    <description><![CDATA[Se situe entre les rues Iberville, Frontenac, De Rouen et Hochelaga. 879 pi2 de plates-bandes furent aménagées avec 8 arbres, 61 arbustes et 68 vivaces furent plantés dans la ruelle, pour un total de 137 végétaux. Cette ruelle présentant une problématique d’accumulation d’eau au sud, nous avons excavé une bande centrale afin de capter l’eau de pluie et, de ce fait, d’améliorer l’aspect et la propreté de la ruelle. <br>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.556313,45.534492,0.000000
+        -73.556717,45.533985,0.000000
+        -73.556503,45.534256,0.000000
+        -73.558853,45.535213,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Aménagement du terrain vague -Ruelle L&#39;Échappée Belle-</name>
+    <description><![CDATA[Nous avons aménagé ce terrain vague dans le cadre du projet de la ruelle verte. Nous y retrouvons un sentier menant à une compostière communautaire.<br>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.550613,45.536648,0.000000
+        -73.550270,45.536522,0.000000
+        -73.550293,45.536480,0.000000
+        -73.550644,45.536610,0.000000
+        -73.550613,45.536648,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte Sheppard-Chapleau</name>
+    <description><![CDATA[Située entre les rues Sheppard, Chapleau, De Rouen et Hochelaga. Elle présente 869 pi2 de plates-bandes dans lesquelles 14 arbres, 89 arbustes et 151 vivaces furent plantés, pour un total de 254 végétaux. Un petit sentier traverse de la rue Sheppard à la ruelle, nous l’avions aménagé en 2009 avec un groupe de résidants. Nous avons donc réaménagé cet espace en y ajoutant des végétaux dans le cadre du projet de la ruelle verte. Deux barils pour la récupération de l’eau de pluie furent installés, la présence de gouttières s’écoulant dans la ruelle en permettant l’installation. <br>]]></description>
+    <styleUrl>#style105</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.559944,45.534035,0.000000
+        -73.557770,45.533058,0.000000
+        -73.557762,45.533054,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Halte verte parc Coupal</name>
+    <description><![CDATA[<font size="1"><span style="font-weight:bold"><span style="font-weight:bold">P</span>etit parc reverdi par les résidants</span> en 2009<span style="font-weight:bold">, situé sur Coupal, entre les rues Fullum et Dufresne.</span> Cette initiative mena ensuite au réaménagement complet du parc par l'arrondissement en 2011.</font>]]></description>
+    <styleUrl>#style151</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.553703,45.530766,0.000000
+        -73.553505,45.530655,0.000000
+        -73.553612,45.530525,0.000000
+        -73.553749,45.530590,0.000000
+        -73.553703,45.530766,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Milton</name>
+    <description><![CDATA[<div dir="ltr" style="font-weight:bold">Ruelle Milton<br>Année d'inauguration: 1981 projet <span style="font-style:italic">champêtre</span> réalisé dans le cadre du programme <span style="font-style:italic">Ruelle au soleil.</span></div>]]></description>
+    <styleUrl>#style142</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.571709,45.511978,0.000000
+        -73.571190,45.512459,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte - 1re, Molson, Holt, Dandurand</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style38</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.581451,45.546711,0.000000
+        -73.581665,45.546410,0.000000
+        -73.580185,45.545990,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Oxford/Marcil - Ruelle des papillons</name>
+    <description><![CDATA[<div dir="ltr">Année d'inauguration : 2010<br><br>Retrouvez-la sur Facebook! <br>http://www.facebook.com/RuelleVerteOxfordMarcilGreenAlley</div>]]></description>
+    <styleUrl>#style74</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.613731,45.471203,0.000000
+        -73.610970,45.469959,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Fabre/Marquette/La Menais/Généreux</name>
+    <description><![CDATA[<div dir="ltr" style="font-weight:bold">Année d'inauguration: 2011</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.576218,45.532116,0.000000
+        -73.578621,45.533169,0.000000
+        -73.578239,45.533470,0.000000
+        -73.578880,45.532867,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Lanaudière/Garnier/St-Grégoire/Laurier</name>
+    <description><![CDATA[<b>Année d'inauguration: 2011</b><br><br>]]></description>
+    <styleUrl>#style88</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.587334,45.535484,0.000000
+        -73.583603,45.533741,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Jeanne-Mance/Esplanade/St-Joseph/Villeneuve</name>
+    <description><![CDATA[Année d'inauguration:&nbsp; 2011<br>]]></description>
+    <styleUrl>#style140</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.592659,45.519878,0.000000
+        -73.591797,45.519489,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Verte 2012 Chateaubriand, St-Vallier, St-Zotique, Bélanger</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style116</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.610802,45.538113,0.000000
+        -73.607605,45.536701,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Verte 2012 Garnier, Lanaudière, St-Zotique, Bélanger</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style36</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.602287,45.542622,0.000000
+        -73.605164,45.543976,0.000000
+        -73.605530,45.543568,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Verte 2012 - 1re, 2e, St-Zotique, Bélanger</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style24</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.593697,45.552280,0.000000
+        -73.595955,45.553337,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte 2012 - Auger, Bélanger, Des Écores, Louis-Hémon</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style104</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.598732,45.550037,0.000000
+        -73.599365,45.550262,0.000000
+        -73.599197,45.550468,0.000000
+        -73.599548,45.550076,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Verte 2012 (Ruelle KOOL) - Iberville, Masson, Dandurand, Chapleau</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style91</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.578728,45.542877,0.000000
+        -73.579903,45.543427,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Verte 2012 - Des Carrières, Rosemont, Des Écores, Louis-Hémon</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style144</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.587563,45.544308,0.000000
+        -73.587074,45.544815,0.000000
+        -73.587311,45.544544,0.000000
+        -73.586838,45.544289,0.000000
+        -73.586533,45.544559,0.000000
+        -73.587074,45.544109,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Verte 2012 -18e, Bourbonnière, Masson, Laurier</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style50</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.568008,45.555576,0.000000
+        -73.568382,45.555717,0.000000
+        -73.568565,45.555454,0.000000
+        -73.568382,45.555717,0.000000
+        -73.569916,45.556160,0.000000
+        -73.569763,45.556377,0.000000
+        -73.570053,45.555920,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Verte 2012 - PieIX, Rosemont, Jeanne D&#39;arc, Dandurand</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style69</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.573906,45.560066,0.000000
+        -73.573555,45.560513,0.000000
+        -73.573738,45.560287,0.000000
+        -73.571838,45.559715,0.000000
+        -73.571709,45.559940,0.000000
+        -73.571999,45.559460,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte - 30e,31e,Beaubien, Bellechasse</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style128</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.572784,45.566902,0.000000
+        -73.573166,45.566391,0.000000
+        -73.572929,45.566677,0.000000
+        -73.571899,45.566376,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Verte 2012 - 1re, 2e, Holt, Rosemont</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style154</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.584465,45.547737,0.000000
+        -73.584152,45.548176,0.000000
+        -73.584328,45.547951,0.000000
+        -73.582375,45.547356,0.000000
+        -73.582245,45.547550,0.000000
+        -73.582489,45.547138,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Edouard-Charles/Du Parc/Saint-joseph/Hutchison</name>
+    <description><![CDATA[<b>Ruelle Parc Edouard-Charles<br>Année d'inauguration : 2012</b><br>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.595657,45.519112,0.000000
+        -73.594986,45.518826,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Resther/St-Hubert/Gilford/Bienville</name>
+    <description><![CDATA[<b>Année d'inauguration : 2012</b><br>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.583595,45.526569,0.000000
+        -73.583321,45.526917,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle De La Roche/Brébeuf/Saint-Joseph/Gilford</name>
+    <description><![CDATA[<b>Année d'inauguration : 2012</b><br>]]></description>
+    <styleUrl>#style51</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.582870,45.530853,0.000000
+        -73.582565,45.531246,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Christophe-Colomb/De La Roche/Laurier/Saint-Joseph</name>
+    <description><![CDATA[Année d'inauguration : 2012<br><br>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.585510,45.530945,0.000000
+        -73.584930,45.531590,0.000000
+        -73.585182,45.531261,0.000000
+        -73.584518,45.530975,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Parthenais/Messier/Marie-Anne/Rachel</name>
+    <description><![CDATA[<b>Année d'inauguration 2012</b><br>]]></description>
+    <styleUrl>#style70</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.568024,45.535362,0.000000
+        -73.566048,45.534462,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Desnoyers (Sud-Ouest)</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style121</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.594154,45.474487,0.000000
+        -73.592972,45.473930,0.000000
+        -73.592949,45.473930,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Blanchard (Sud-Ouest)</name>
+    <description><![CDATA[En cours de réalisation<br>]]></description>
+    <styleUrl>#style67</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.576347,45.488297,0.000000
+        -73.578621,45.486656,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle De Jumonville (Entre De Jumonville/Bossuet/Louis-Veuillot)</name>
+    <description><![CDATA[<div>Année d'inauguration :2011</div><div>Éco-quartier Louis-Riel</div><div>&nbsp;</div>]]></description>
+    <styleUrl>#style152</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.550713,45.577419,0.000000
+        -73.551102,45.576805,0.000000
+        -73.550804,45.576721,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle De Repentigny (Entre De Repentigny/Pierre-de-Coubertin/Marseilles/Granby)</name>
+    <description><![CDATA[<div>Année d'inauguration: 2012</div><div>Éco-quartier Louis-Riel</div>]]></description>
+    <styleUrl>#style75</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.536980,45.578564,0.000000
+        -73.536835,45.578808,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Cadillac (EntreCadillac/Chauveau/Marseilles/Duquesne)</name>
+    <description><![CDATA[<div>Année d'inauguration: 2012</div><div>Éco-quartier Louis-Riel</div>]]></description>
+    <styleUrl>#style96</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.542015,45.575947,0.000000
+        -73.542191,45.575691,0.000000
+        -73.543304,45.576057,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>2012 Ruelle Contrecoeur</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style59</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.512390,45.609837,0.000000
+        -73.511467,45.609680,0.000000
+        -73.511475,45.609680,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>2011 Ruelle Saint-Victor</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style6</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.510292,45.610413,0.000000
+        -73.510414,45.610050,0.000000
+        -73.510338,45.610264,0.000000
+        -73.509811,45.610157,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>2012 Ruelle Lafontaine</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style124</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.536690,45.556568,0.000000
+        -73.536690,45.556557,0.000000
+        -73.536690,45.556564,0.000000
+        -73.536690,45.556564,0.000000
+        -73.536713,45.556572,0.000000
+        -73.536697,45.556568,0.000000
+        -73.536705,45.556572,0.000000
+        -73.536713,45.556572,0.000000
+        -73.536705,45.556572,0.000000
+        -73.536713,45.556576,0.000000
+        -73.536697,45.556572,0.000000
+        -73.536705,45.556572,0.000000
+        -73.536690,45.556564,0.000000
+        -73.536713,45.556580,0.000000
+        -73.536690,45.556568,0.000000
+        -73.535675,45.556232,0.000000
+        -73.536705,45.556572,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>2012 Ruelle Sicard</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style92</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.534958,45.555141,0.000000
+        -73.533524,45.554646,0.000000
+        -73.535172,45.555206,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ligne 124</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style42</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.532173,45.559422,0.000000
+        -73.532074,45.559429,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>2012 Ruelle Vimont</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style115</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.532074,45.559399,0.000000
+        -73.530876,45.558979,0.000000
+        -73.531509,45.559189,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>2011 Ruelle William-Benett</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style127</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.538277,45.554539,0.000000
+        -73.536346,45.553894,0.000000
+        -73.537552,45.554329,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ligne 121</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style141</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.536736,45.556610,0.000000
+        -73.536736,45.556610,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ligne 127</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style13</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.543297,45.565414,0.000000
+        -73.543297,45.565414,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Rielle / Gordon entre Wellington et Lasalle</name>
+    <description><![CDATA[<div>Année d'inauguration : 2012</div><div>Arrondissement de Verdun</div>]]></description>
+    <styleUrl>#style106</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.566643,45.460247,0.000000
+        -73.566544,45.460922,0.000000
+        -73.566566,45.460747,0.000000
+        -73.566597,45.460575,0.000000
+        -73.563797,45.460419,0.000000
+        -73.563736,45.460823,0.000000
+        -73.563850,45.460064,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Willibrord / Rielle entre Wellington et Lasalle</name>
+    <description><![CDATA[<div>Année d'inauguration : 2011</div><div>Arrondissement de Verdun</div>]]></description>
+    <styleUrl>#style132</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.566597,45.460072,0.000000
+        -73.566704,45.459290,0.000000
+        -73.566643,45.459709,0.000000
+        -73.563881,45.459545,0.000000
+        -73.563828,45.459934,0.000000
+        -73.563881,45.459545,0.000000
+        -73.563919,45.459167,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle 1ère Av. / 2e Av. entre Verdun et Wellington</name>
+    <description><![CDATA[<div>Année d'inauguration : 2009</div><div>Arrondissement de Verdun</div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.571320,45.458565,0.000000
+        -73.571320,45.458023,0.000000
+        -73.571320,45.458302,0.000000
+        -73.567734,45.458176,0.000000
+        -73.567719,45.458385,0.000000
+        -73.567757,45.457932,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle 2e Av. / 3e Av. entre Verdun et Wellington</name>
+    <description><![CDATA[<div>Année d'inauguration : 2011</div><div>Arrondissement de Verdun</div>]]></description>
+    <styleUrl>#style120</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.571342,45.457947,0.000000
+        -73.571365,45.457504,0.000000
+        -73.571350,45.457760,0.000000
+        -73.567993,45.457611,0.000000
+        -73.567986,45.457829,0.000000
+        -73.568001,45.457359,0.000000
+        -73.568001,45.457382,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle 3e Av. / 4e Av. entre Verdun et Wellington</name>
+    <description><![CDATA[<div>Année d'inauguration : 2012</div><div>Arrondissement de Verdun</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.571404,45.456894,0.000000
+        -73.571365,45.457375,0.000000
+        -73.571373,45.457127,0.000000
+        -73.568512,45.457008,0.000000
+        -73.568520,45.456818,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle 4e Av. / 5e Av. entre Verdun et Wellington</name>
+    <description><![CDATA[<div>Année d'inauguration : 2009</div><div>Arrondissement de Verdun</div><div><a href="http://parallele45.blogspot.ca/" target="_blank">http://parallele45.blogspot.ca/</a></div>]]></description>
+    <styleUrl>#style89</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.571426,45.456787,0.000000
+        -73.571480,45.456268,0.000000
+        -73.571449,45.456547,0.000000
+        -73.568100,45.456383,0.000000
+        -73.568077,45.456593,0.000000
+        -73.568100,45.456188,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Manning / Moffat entre Verdun et Bannantyne</name>
+    <description><![CDATA[<div>Année d'inauguration : 2010</div><div>Arrondissement de Verdun</div>]]></description>
+    <styleUrl>#style94</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.575867,45.450134,0.000000
+        -73.575867,45.449623,0.000000
+        -73.575867,45.449894,0.000000
+        -73.573120,45.449806,0.000000
+        -73.573120,45.450108,0.000000
+        -73.573120,45.449505,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Rushbrooke / Wellington</name>
+    <description><![CDATA[<div>Année d'inauguration : 2010</div><div>Arrondissement de Verdun</div><div>&nbsp;</div><div><a href="http://ruellerushbrookewellington.wordpress.com/" target="_blank">http://ruellerushbrookewellington.wordpress.com/</a></div>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.566032,45.469566,0.000000
+        -73.565506,45.469357,0.000000
+        -73.565773,45.469467,0.000000
+        -73.564659,45.471058,0.000000
+        -73.565010,45.471169,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte Towers</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style119</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.582153,45.492653,0.000000
+        -73.581673,45.492374,0.000000
+        -73.581665,45.492371,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle verte Marquette - Papineau - Beaubien - Bellechasse</name>
+    <description><![CDATA[Inauguration : 2012]]></description>
+    <styleUrl>#style145</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.596855,45.542713,0.000000
+        -73.595787,45.542233,0.000000
+        -73.595695,45.542336,0.000000
+        -73.593552,45.541389,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Éco-quartier Hochelaga</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style135</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.551300,45.553307,0.000000
+        -73.551712,45.552692,0.000000
+        -73.551498,45.553020,0.000000
+        -73.548920,45.552269,0.000000
+        -73.548790,45.552540,0.000000
+        -73.549156,45.551952,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Éco-quartier Hochelaga</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style79</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.552139,45.552181,0.000000
+        -73.552505,45.551701,0.000000
+        -73.552315,45.551937,0.000000
+        -73.549759,45.551159,0.000000
+        -73.549583,45.551369,0.000000
+        -73.549950,45.550888,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ligne 136</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style31</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.551392,45.553337,0.000000
+        -73.551819,45.552692,0.000000
+        -73.551537,45.553066,0.000000
+        -73.548965,45.552269,0.000000
+        -73.548752,45.552586,0.000000
+        -73.549179,45.551926,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ruelle 2011-Labrecque</name>
+    <description><![CDATA[entre les intersections Saint-André/Saint-Timothée/Ontario/Robin]]></description>
+    <styleUrl>#style46</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.563301,45.519382,0.000000
+        -73.561478,45.518543,0.000000
+        -73.561478,45.518528,0.000000
+        -73.561478,45.518528,0.000000
+        -73.561493,45.518528,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>arrondissement sud-ouest</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style60</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.579475,45.466633,0.000000
+        -73.572090,45.466301,0.000000
+        -73.571533,45.472469,0.000000
+        -73.570122,45.473495,0.000000
+        -73.570030,45.475029,0.000000
+        -73.560287,45.471447,0.000000
+        -73.552483,45.474819,0.000000
+        -73.546173,45.474426,0.000000
+        -73.539864,45.478580,0.000000
+        -73.537590,45.484959,0.000000
+        -73.538231,45.487064,0.000000
+        -73.540466,45.488510,0.000000
+        -73.550591,45.490314,0.000000
+        -73.552391,45.491306,0.000000
+        -73.553894,45.493053,0.000000
+        -73.555099,45.495399,0.000000
+        -73.561646,45.498032,0.000000
+        -73.563141,45.495232,0.000000
+        -73.567177,45.490028,0.000000
+        -73.572372,45.492538,0.000000
+        -73.581642,45.486267,0.000000
+        -73.589561,45.481064,0.000000
+        -73.592972,45.478867,0.000000
+        -73.594322,45.477600,0.000000
+        -73.596725,45.472954,0.000000
+        -73.599388,45.471718,0.000000
+        -73.605392,45.467747,0.000000
+        -73.613335,45.464226,0.000000
+        -73.628998,45.456459,0.000000
+        -73.632690,45.452366,0.000000
+        -73.629211,45.450829,0.000000
+        -73.623459,45.453537,0.000000
+        -73.617538,45.456638,0.000000
+        -73.613892,45.457905,0.000000
+        -73.607071,45.454472,0.000000
+        -73.604362,45.447365,0.000000
+        -73.606125,45.446705,0.000000
+        -73.615738,45.440109,0.000000
+        -73.599861,45.437519,0.000000
+        -73.590843,45.447155,0.000000
+        -73.586472,45.451221,0.000000
+        -73.582993,45.453777,0.000000
+        -73.580765,45.458115,0.000000
+        -73.580719,45.461456,0.000000
+        -73.580887,45.465427,0.000000
+        -73.580292,45.466694,0.000000
+        -73.579475,45.466633,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ruelle blake</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style138</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.576813,45.487297,0.000000
+        -73.575676,45.487995,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Plate-bande de l&#39;école de la Petite-Bourgogne</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style68</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.570732,45.488811,0.000000
+        -73.570030,45.488441,0.000000
+        -73.570229,45.488297,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Arboretum</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style49</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.591110,45.474030,0.000000
+        -73.590752,45.473854,0.000000
+        -73.590279,45.474148,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>paillasson vert</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style126</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.584595,45.473396,0.000000
+        -73.584084,45.473156,0.000000
+        -73.584366,45.472893,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ligne 143</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style99</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.584114,45.473534,0.000000
+        -73.584343,45.473282,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>jardin citoyen</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.563156,45.478691,0.000000
+        -73.563034,45.478558,0.000000
+        -73.563362,45.478279,0.000000
+        -73.563477,45.478474,0.000000
+        -73.563156,45.478691,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>plante-bande habitations Dublin-Fortune</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style108</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.559013,45.477806,0.000000
+        -73.559273,45.477264,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Plate-bande habitations Dublin-Fortune 2</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style133</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.558716,45.477631,0.000000
+        -73.558830,45.477421,0.000000
+        -73.558617,45.477398,0.000000
+        -73.558502,45.477638,0.000000
+        -73.558716,45.477631,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>plate-bande du YMCA</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style10</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.552330,45.478409,0.000000
+        -73.551430,45.477814,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ruelle Charon</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style93</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.556007,45.479633,0.000000
+        -73.553513,45.479588,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Jardin Sébastopol</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style117</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.553230,45.481693,0.000000
+        -73.556000,45.481716,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Plate-bande Résidence Côte-St-Paul</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style82</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.593880,45.466648,0.000000
+        -73.593826,45.466881,0.000000
+        -73.593155,45.466850,0.000000
+        -73.593880,45.466648,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>plantation parc St-Paul</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style62</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.585419,45.461765,0.000000
+        -73.585510,45.460964,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ligne 152</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style47</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.593239,45.458309,0.000000
+        -73.593246,45.457760,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ruelle Dubois</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style76</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.593262,45.458031,0.000000
+        -73.594711,45.457939,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ligne 154</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style22</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.600960,45.452499,0.000000
+        -73.600266,45.452637,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Ruelle Jogues</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style9</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -73.600555,45.452553,0.000000
+        -73.599716,45.450123,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

@@ -5,8 +5,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.URISyntaxException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,14 +27,5 @@ public class CsvFileHelper {
         br.close();
 
         return result;
-    }
-
-    private static URL getResourcePath(String fileName) {
-        return CsvFileHelper.class.getResource("/" + fileName);
-    }
-
-    public static File getResource(String fileName) throws URISyntaxException {
-        final URL resourceUrl = getResourcePath(fileName);
-        return new File(resourceUrl.toURI());
     }
 }

@@ -13,7 +13,7 @@ public class BikeSupportReader {
     public static List<BikeSupport> extractBikeSupport() {
         List<BikeSupport> bikesSupport = new ArrayList<BikeSupport>();
         try {
-            final File file = CsvFileHelper.getResource(FILE_NAME);
+            final File file = FileHelper.getResource(FILE_NAME);
             List<String> lines = CsvFileHelper.readFile(file);
             boolean columIgnored = false;
             for (String line : lines) {

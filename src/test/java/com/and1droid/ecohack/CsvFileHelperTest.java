@@ -15,13 +15,13 @@ public class CsvFileHelperTest {
 
     @Test
     public void testGetResource() throws URISyntaxException {
-        final File file = CsvFileHelper.getResource(FILE_NAME);
+        final File file = FileHelper.getResource(FILE_NAME);
         assertTrue(file.exists());
     }
 
     @Test
     public void testReadFile() throws URISyntaxException, IOException {
-        final File file = CsvFileHelper.getResource(FILE_NAME);
+        final File file = FileHelper.getResource(FILE_NAME);
         List<String> lines = CsvFileHelper.readFile(file);
 
         // Test

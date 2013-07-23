@@ -1,0 +1,106 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://ecohack.appspot.com/_ah/api",
+  "name" : "greenstreetendpoint",
+  "version" : "v1",
+  "defaultVersion" : false,
+  "adapter" : {
+    "bns" : "https://ecohack.appspot.com/_ah/spi",
+    "deadline" : 10.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "ownerDomain" : "vdfvdfvdfvdfvdfvdf.com",
+  "ownerName" : "vdfvdfvdfvdfvdfvdf.com",
+  "methods" : {
+    "greenstreetendpoint.listGreenStreet" : {
+      "path" : "greenstreet",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ ],
+      "clientIds" : [ ],
+      "rosyMethod" : "com.and1droid.ecohack.GreenStreetEndpoint.listGreenStreet",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "CollectionResponse_GreenStreet" : {
+        "id" : "CollectionResponse_GreenStreet",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "GreenStreet"
+            }
+          },
+          "nextPageToken" : {
+            "type" : "string"
+          }
+        }
+      },
+      "GreenStreet" : {
+        "id" : "GreenStreet",
+        "type" : "object",
+        "properties" : {
+          "name" : {
+            "type" : "string"
+          },
+          "description" : {
+            "type" : "string"
+          },
+          "tessellate" : {
+            "type" : "boolean"
+          },
+          "coordinates" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Coordinate"
+            }
+          }
+        }
+      },
+      "Coordinate" : {
+        "id" : "Coordinate",
+        "type" : "object",
+        "properties" : {
+          "longitude" : {
+            "type" : "number"
+          },
+          "latitude" : {
+            "type" : "number"
+          },
+          "altitude" : {
+            "type" : "number"
+          }
+        }
+      }
+    },
+    "methods" : {
+      "com.and1droid.ecohack.GreenStreetEndpoint.listGreenStreet" : {
+        "response" : {
+          "$ref" : "CollectionResponse_GreenStreet"
+        }
+      }
+    }
+  }
+}
