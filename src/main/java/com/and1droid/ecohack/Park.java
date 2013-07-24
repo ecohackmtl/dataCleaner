@@ -3,33 +3,32 @@ package com.and1droid.ecohack;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.jdo.annotations.PrimaryKey;
-import javax.persistence.CascadeType;
-import javax.persistence.Embeddable;
-import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.Transient;
 
 @Entity
 public class Park {
 
     @Id
-    @PrimaryKey
-    private final String parkID;
+    private String parkID;
+    private String name;
 
-    @Embedded
-    @OneToOne(cascade = CascadeType.DETACH)
-    private final List<LatLng> boundaries = new ArrayList<LatLng>();
+    List<String> boundaries = new ArrayList<String>();
 
-    private final String name;
+    @Transient
+    private double[][] points;
 
-    public Park(String parkID, String name) {
+    public Park() {
+    }
+    
+    public Park(String parkID, String name, double[][] points) {
         this.parkID = parkID;
         this.name = name;
+        this.points = points;
     }
 
-    public List<LatLng> getBoundaries() {
+    public List<String> getBoundaries() {
         return boundaries;
     }
 
@@ -41,29 +40,21 @@ public class Park {
         return parkID;
     }
 
-    @Embeddable
-    private static class LatLng {
-
-        private double lat;
-        private double lon;
-
-        public LatLng(double lat, double lon) {
-            this.lat = lat;
-            this.lon = lon;
-        }
-
-        public double getLat() {
-            return lat;
-        }
-
-        public double getLon() {
-            return lon;
-        }
-
+    public void setBoundaries(List<String> boundaries) {
+        this.boundaries = boundaries;
+    }
+    public void setParkID(String parkID) {
+        this.parkID = parkID;
     }
 
-    public void addBoundary(double latitude, double longitude) {
-        boundaries.add(new LatLng(latitude, longitude));
+    public void setPoints(double[][] points) {
+        this.points = points;        
     }
 
+    public double[][] getPoints() {
+        return points;
+    }
+
+    /*@Embeddable
+    */
 }

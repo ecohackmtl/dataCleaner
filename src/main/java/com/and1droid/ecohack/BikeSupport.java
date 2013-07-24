@@ -6,7 +6,6 @@ import javax.persistence.Id;
 
 @Entity
 public class BikeSupport {
-
     @Id
     @PrimaryKey
     private String inv_id;

@@ -40,6 +40,20 @@
       "response" : {
         "body" : "autoTemplate(backendResponse)"
       }
+    },
+    "parkendpoint.clearPark" : {
+      "path" : "clearPark",
+      "httpMethod" : "POST",
+      "scopes" : [ ],
+      "audiences" : [ ],
+      "clientIds" : [ ],
+      "rosyMethod" : "com.and1droid.ecohack.ParkEndpoint.clearPark",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "empty"
+      }
     }
   },
   "descriptor" : {
@@ -66,26 +80,23 @@
           "parkID" : {
             "type" : "string"
           },
+          "name" : {
+            "type" : "string"
+          },
           "boundaries" : {
             "type" : "array",
             "items" : {
-              "$ref" : "LatLng"
+              "type" : "string"
             }
           },
-          "name" : {
-            "type" : "string"
-          }
-        }
-      },
-      "LatLng" : {
-        "id" : "LatLng",
-        "type" : "object",
-        "properties" : {
-          "lat" : {
-            "type" : "number"
-          },
-          "lon" : {
-            "type" : "number"
+          "points" : {
+            "type" : "array",
+            "items" : {
+              "type" : "array",
+              "items" : {
+                "type" : "number"
+              }
+            }
           }
         }
       }
@@ -95,6 +106,8 @@
         "response" : {
           "$ref" : "CollectionResponse_Park"
         }
+      },
+      "com.and1droid.ecohack.ParkEndpoint.clearPark" : {
       }
     }
   }

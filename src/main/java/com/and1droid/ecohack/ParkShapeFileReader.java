@@ -50,23 +50,16 @@ public class ParkShapeFileReader {
         SHP_File.LOG_ONLOAD_CONTENT = false;
         List<Park> parks = new ArrayList<Park>();
         try {
-            // GET DIRECTORY
+         // GET DIRECTORY
             String curDir = System.getProperty("user.dir");
             String folder = "/ecohack/parks/";
             // LOAD SHAPE FILE (.shp, .shx, .dbf)
             ShapeFile shapefile = new ShapeFile(curDir + folder, "GrandsParcs130218").READ();
-            // TEST: printing some content
-            int number_of_shapes = shapefile.getSHP_shapeCount();
 
-            for (int i = 0; i < number_of_shapes; i++) {
+            for (int i = 0; i < shapefile.getSHP_shapeCount(); i++) {
                 ShpPolygon shape = shapefile.getSHP_shape(i);
                 String[] shape_info = shapefile.getDBF_record(i);
-
-                Park park = new Park("" + shape.getRecordNumber(), shape_info[1].trim());
-                for (double[] points : shape.getPoints()) {
-                    park.addBoundary(points[0], points[1]);
-                }
-                parks.add(park);
+                parks.add(new Park(shape_info[0].trim(), shape_info[1].trim(), shape.getPoints()));
             }
         } catch (Exception e) {
             e.printStackTrace();
