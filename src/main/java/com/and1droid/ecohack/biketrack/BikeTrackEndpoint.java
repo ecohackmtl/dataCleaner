@@ -18,7 +18,7 @@ public class BikeTrackEndpoint {
      * @throws URISyntaxException 
      */
     @ApiMethod(name = "listBikeTracks")
-    public CollectionResponse<BikeTrack> listLights() throws URISyntaxException {
+    public CollectionResponse<BikeTrack> listbikesTracks() throws URISyntaxException {
         List<BikeTrack> lights = new BikeTrackKmlReader().extractInfos();
         return CollectionResponse.<BikeTrack> builder().setItems(lights).build();
     }

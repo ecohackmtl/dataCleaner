@@ -2,7 +2,7 @@
   "extends" : "thirdParty.api",
   "abstract" : false,
   "root" : "https://ecohack.appspot.com/_ah/api",
-  "name" : "biketrackendpoint",
+  "name" : "districtendpoint",
   "version" : "v1",
   "defaultVersion" : false,
   "adapter" : {
@@ -26,13 +26,13 @@
   "ownerDomain" : "ecohack.com",
   "ownerName" : "ecohack.com",
   "methods" : {
-    "biketrackendpoint.listBikeTracks" : {
-      "path" : "biketrack",
+    "districtendpoint.listDistricts" : {
+      "path" : "district",
       "httpMethod" : "GET",
       "scopes" : [ ],
       "audiences" : [ ],
       "clientIds" : [ ],
-      "rosyMethod" : "com.and1droid.ecohack.biketrack.BikeTrackEndpoint.listbikesTracks",
+      "rosyMethod" : "com.and1droid.ecohack.disctrict.DistrictEndpoint.listDistricts",
       "request" : {
         "body" : "empty"
       },
@@ -43,14 +43,14 @@
   },
   "descriptor" : {
     "schemas" : {
-      "CollectionResponse_BikeTrack" : {
-        "id" : "CollectionResponse_BikeTrack",
+      "CollectionResponse_District" : {
+        "id" : "CollectionResponse_District",
         "type" : "object",
         "properties" : {
           "items" : {
             "type" : "array",
             "items" : {
-              "$ref" : "BikeTrack"
+              "$ref" : "District"
             }
           },
           "nextPageToken" : {
@@ -58,8 +58,8 @@
           }
         }
       },
-      "BikeTrack" : {
-        "id" : "BikeTrack",
+      "District" : {
+        "id" : "District",
         "type" : "object",
         "properties" : {
           "name" : {
@@ -68,34 +68,22 @@
           "coordinates" : {
             "type" : "array",
             "items" : {
-              "$ref" : "Coordinate"
+              "type" : "array",
+              "items" : {
+                "type" : "array",
+                "items" : {
+                  "type" : "number"
+                }
+              }
             }
-          },
-          "id" : {
-            "type" : "string"
-          }
-        }
-      },
-      "Coordinate" : {
-        "id" : "Coordinate",
-        "type" : "object",
-        "properties" : {
-          "longitude" : {
-            "type" : "number"
-          },
-          "latitude" : {
-            "type" : "number"
-          },
-          "altitude" : {
-            "type" : "number"
           }
         }
       }
     },
     "methods" : {
-      "com.and1droid.ecohack.biketrack.BikeTrackEndpoint.listbikesTracks" : {
+      "com.and1droid.ecohack.disctrict.DistrictEndpoint.listDistricts" : {
         "response" : {
-          "$ref" : "CollectionResponse_BikeTrack"
+          "$ref" : "CollectionResponse_District"
         }
       }
     }
