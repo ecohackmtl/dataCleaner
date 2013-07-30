@@ -1,12 +1,14 @@
 package com.and1droid.ecohack;
 
+import static org.junit.Assert.assertEquals;
+
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import com.and1droid.ecohack.park.Park;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 

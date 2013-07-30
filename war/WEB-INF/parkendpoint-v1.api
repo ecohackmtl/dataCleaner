@@ -33,26 +33,12 @@
       "scopes" : [ ],
       "audiences" : [ ],
       "clientIds" : [ ],
-      "rosyMethod" : "com.and1droid.ecohack.ParkEndpoint.listPark",
+      "rosyMethod" : "com.and1droid.ecohack.park.ParkEndpoint.listPark",
       "request" : {
         "body" : "empty"
       },
       "response" : {
         "body" : "autoTemplate(backendResponse)"
-      }
-    },
-    "parkendpoint.clearPark" : {
-      "path" : "clearPark",
-      "httpMethod" : "POST",
-      "scopes" : [ ],
-      "audiences" : [ ],
-      "clientIds" : [ ],
-      "rosyMethod" : "com.and1droid.ecohack.ParkEndpoint.clearPark",
-      "request" : {
-        "body" : "empty"
-      },
-      "response" : {
-        "body" : "empty"
       }
     }
   },
@@ -77,9 +63,6 @@
         "id" : "Park",
         "type" : "object",
         "properties" : {
-          "parkID" : {
-            "type" : "string"
-          },
           "name" : {
             "type" : "string"
           },
@@ -89,25 +72,20 @@
               "type" : "string"
             }
           },
-          "points" : {
-            "type" : "array",
-            "items" : {
-              "type" : "array",
-              "items" : {
-                "type" : "number"
-              }
-            }
+          "id" : {
+            "type" : "string"
+          },
+          "idField" : {
+            "type" : "string"
           }
         }
       }
     },
     "methods" : {
-      "com.and1droid.ecohack.ParkEndpoint.listPark" : {
+      "com.and1droid.ecohack.park.ParkEndpoint.listPark" : {
         "response" : {
           "$ref" : "CollectionResponse_Park"
         }
-      },
-      "com.and1droid.ecohack.ParkEndpoint.clearPark" : {
       }
     }
   }

@@ -1,0 +1,99 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://ecohack.appspot.com/_ah/api",
+  "name" : "ilotChaleurendpoint",
+  "version" : "v1",
+  "defaultVersion" : false,
+  "adapter" : {
+    "bns" : "https://ecohack.appspot.com/_ah/spi",
+    "deadline" : 10.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "ownerDomain" : "and1droid.com",
+  "ownerName" : "and1droid.com",
+  "packagePath" : "ecohack",
+  "methods" : {
+    "ilotChaleurendpoint.listIlotsChaleurs" : {
+      "path" : "ilot",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ ],
+      "clientIds" : [ ],
+      "rosyMethod" : "com.and1droid.ecohack.ilot.chaleur.IlotChaleurEndpoint.listIlotsChaleurs",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "ilotChaleurendpoint.clearIlotsChaleurs" : {
+      "path" : "clearIlotsChaleurs",
+      "httpMethod" : "POST",
+      "scopes" : [ ],
+      "audiences" : [ ],
+      "clientIds" : [ ],
+      "rosyMethod" : "com.and1droid.ecohack.ilot.chaleur.IlotChaleurEndpoint.clearIlotsChaleurs",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "empty"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "CollectionResponse_Ilot" : {
+        "id" : "CollectionResponse_Ilot",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Ilot"
+            }
+          },
+          "nextPageToken" : {
+            "type" : "string"
+          }
+        }
+      },
+      "Ilot" : {
+        "id" : "Ilot",
+        "type" : "object",
+        "properties" : {
+          "boundaries" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+    },
+    "methods" : {
+      "com.and1droid.ecohack.ilot.chaleur.IlotChaleurEndpoint.listIlotsChaleurs" : {
+        "response" : {
+          "$ref" : "CollectionResponse_Ilot"
+        }
+      },
+      "com.and1droid.ecohack.ilot.chaleur.IlotChaleurEndpoint.clearIlotsChaleurs" : {
+      }
+    }
+  }
+}

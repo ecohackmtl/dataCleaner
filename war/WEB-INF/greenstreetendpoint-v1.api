@@ -32,7 +32,7 @@
       "scopes" : [ ],
       "audiences" : [ ],
       "clientIds" : [ ],
-      "rosyMethod" : "com.and1droid.ecohack.GreenStreetEndpoint.listGreenStreet",
+      "rosyMethod" : "com.and1droid.ecohack.greenstreet.GreenStreetEndpoint.listGreenStreet",
       "request" : {
         "body" : "empty"
       },
@@ -96,7 +96,7 @@
       }
     },
     "methods" : {
-      "com.and1droid.ecohack.GreenStreetEndpoint.listGreenStreet" : {
+      "com.and1droid.ecohack.greenstreet.GreenStreetEndpoint.listGreenStreet" : {
         "response" : {
           "$ref" : "CollectionResponse_GreenStreet"
         }

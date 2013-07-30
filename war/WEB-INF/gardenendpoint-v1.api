@@ -32,7 +32,7 @@
       "scopes" : [ ],
       "audiences" : [ ],
       "clientIds" : [ ],
-      "rosyMethod" : "com.and1droid.ecohack.GardenEndpoint.listGarden",
+      "rosyMethod" : "com.and1droid.ecohack.garden.GardenEndpoint.listGarden",
       "request" : {
         "body" : "empty"
       },
@@ -90,7 +90,7 @@
       }
     },
     "methods" : {
-      "com.and1droid.ecohack.GardenEndpoint.listGarden" : {
+      "com.and1droid.ecohack.garden.GardenEndpoint.listGarden" : {
         "response" : {
           "$ref" : "CollectionResponse_Garden"
         }

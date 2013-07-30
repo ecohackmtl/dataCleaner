@@ -10,6 +10,9 @@ import java.util.List;
 
 import org.junit.Test;
 
+import com.and1droid.ecohack.tool.CsvFileHelper;
+import com.and1droid.ecohack.tool.FileHelper;
+
 public class CsvFileHelperTest {
     private final static String FILE_NAME = "bike_support/support_velo_sigs.csv";
 

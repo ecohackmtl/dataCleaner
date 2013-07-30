@@ -6,6 +6,8 @@ import java.net.URISyntaxException;
 
 import org.junit.Test;
 
+import com.and1droid.ecohack.garden.GardenReader;
+
 public class GardenReaderTest {
 
     @Test
