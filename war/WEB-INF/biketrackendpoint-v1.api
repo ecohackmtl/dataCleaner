@@ -1,0 +1,103 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://ecohack.appspot.com/_ah/api",
+  "name" : "biketrackendpoint",
+  "version" : "v1",
+  "defaultVersion" : false,
+  "adapter" : {
+    "bns" : "https://ecohack.appspot.com/_ah/spi",
+    "deadline" : 10.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "ownerDomain" : "ecohack.com",
+  "ownerName" : "ecohack.com",
+  "methods" : {
+    "biketrackendpoint.listBikeTracks" : {
+      "path" : "biketrack",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ ],
+      "clientIds" : [ ],
+      "rosyMethod" : "com.and1droid.ecohack.biketrack.BikeTrackEndpoint.listLights",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "CollectionResponse_BikeTrack" : {
+        "id" : "CollectionResponse_BikeTrack",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "BikeTrack"
+            }
+          },
+          "nextPageToken" : {
+            "type" : "string"
+          }
+        }
+      },
+      "BikeTrack" : {
+        "id" : "BikeTrack",
+        "type" : "object",
+        "properties" : {
+          "name" : {
+            "type" : "string"
+          },
+          "coordinates" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Coordinate"
+            }
+          },
+          "id" : {
+            "type" : "string"
+          }
+        }
+      },
+      "Coordinate" : {
+        "id" : "Coordinate",
+        "type" : "object",
+        "properties" : {
+          "longitude" : {
+            "type" : "number"
+          },
+          "latitude" : {
+            "type" : "number"
+          },
+          "altitude" : {
+            "type" : "number"
+          }
+        }
+      }
+    },
+    "methods" : {
+      "com.and1droid.ecohack.biketrack.BikeTrackEndpoint.listLights" : {
+        "response" : {
+          "$ref" : "CollectionResponse_BikeTrack"
+        }
+      }
+    }
+  }
+}
