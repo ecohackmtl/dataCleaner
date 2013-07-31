@@ -6,7 +6,7 @@ import com.google.api.server.spi.config.ApiNamespace;
 import com.google.api.server.spi.response.CollectionResponse;
 
 @Api(name = "freesnowparkingendpoint", namespace = @ApiNamespace(ownerDomain = "and1droid.com", ownerName = "and1droid.com", packagePath = ""))
-public class BikeSupportEndpoint {
+public class FreeSnowParkingEndpoint {
 
     /**
      * This method lists all the entities inserted in datastore. It uses HTTP GET method and paging support.

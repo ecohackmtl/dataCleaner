@@ -2,8 +2,9 @@
   "extends" : "thirdParty.api",
   "abstract" : false,
   "root" : "https://ecohack.appspot.com/_ah/api",
-  "name" : "freesnowparkingendpoint",
+  "name" : "buildingAccessibilityendpoint",
   "version" : "v1",
+  "description" : "Petit test de description",
   "defaultVersion" : false,
   "adapter" : {
     "bns" : "https://ecohack.appspot.com/_ah/spi",
@@ -26,13 +27,13 @@
   "ownerDomain" : "and1droid.com",
   "ownerName" : "and1droid.com",
   "methods" : {
-    "freesnowparkingendpoint.listFreeSnowParking" : {
-      "path" : "freesnowparking",
+    "buildingAccessibilityendpoint.listAccessibleBuildings" : {
+      "path" : "buildingaccessibility",
       "httpMethod" : "GET",
       "scopes" : [ ],
       "audiences" : [ ],
       "clientIds" : [ ],
-      "rosyMethod" : "com.and1droid.ecohack.freesnowparking.FreeSnowParkingEndpoint.listFreeSnowParking",
+      "rosyMethod" : "com.and1droid.ecohack.buildingaccessibility.BuildingAccessibilityEndpoint.listAccessibleBuildings",
       "request" : {
         "body" : "empty"
       },
@@ -43,14 +44,14 @@
   },
   "descriptor" : {
     "schemas" : {
-      "CollectionResponse_FreeSnowParking" : {
-        "id" : "CollectionResponse_FreeSnowParking",
+      "CollectionResponse_BuildingAccessibility" : {
+        "id" : "CollectionResponse_BuildingAccessibility",
         "type" : "object",
         "properties" : {
           "items" : {
             "type" : "array",
             "items" : {
-              "$ref" : "FreeSnowParking"
+              "$ref" : "BuildingAccessibility"
             }
           },
           "nextPageToken" : {
@@ -58,10 +59,25 @@
           }
         }
       },
-      "FreeSnowParking" : {
-        "id" : "FreeSnowParking",
+      "BuildingAccessibility" : {
+        "id" : "BuildingAccessibility",
         "type" : "object",
         "properties" : {
+          "id" : {
+            "type" : "integer"
+          },
+          "address" : {
+            "type" : "string"
+          },
+          "universalAccessibility" : {
+            "type" : "boolean"
+          },
+          "typeChauffage" : {
+            "type" : "string"
+          },
+          "elevatorCount" : {
+            "type" : "integer"
+          },
           "lon" : {
             "type" : "string"
           },
@@ -72,9 +88,9 @@
       }
     },
     "methods" : {
-      "com.and1droid.ecohack.freesnowparking.FreeSnowParkingEndpoint.listFreeSnowParking" : {
+      "com.and1droid.ecohack.buildingaccessibility.BuildingAccessibilityEndpoint.listAccessibleBuildings" : {
         "response" : {
-          "$ref" : "CollectionResponse_FreeSnowParking"
+          "$ref" : "CollectionResponse_BuildingAccessibility"
         }
       }
     }
