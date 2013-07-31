@@ -1,4 +1,4 @@
-package com.and1droid.ecohack.bikesupport;
+package com.and1droid.ecohack.bike.support;
 
 import com.and1droid.ecohack.tool.CsvReader;
 
@@ -39,7 +39,7 @@ public class BikeSupportReader extends CsvReader<BikeSupport> {
 
     @Override
     protected String getFileName() {
-        return "bikesupport/support_velo_sigs.csv";
+        return "bike/support/support_velo_sigs.csv";
     }
 
 }

@@ -5,7 +5,7 @@ import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.ApiNamespace;
 import com.google.api.server.spi.response.CollectionResponse;
 
-@Api(name = "freesnowparkingendpoint", namespace = @ApiNamespace(ownerDomain = "and1droid.com", ownerName = "and1droid.com", packagePath = ""))
+@Api(name = "freesnowparkingendpoint", namespace = @ApiNamespace(ownerDomain = "and1droid.com", ownerName = "and1droid.com", packagePath = ""), description = "Liste des parking gratuits lors des déneigements")
 public class FreeSnowParkingEndpoint {
 
     /**

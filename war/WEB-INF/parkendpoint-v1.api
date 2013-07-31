@@ -4,6 +4,7 @@
   "root" : "https://ecohack.appspot.com/_ah/api",
   "name" : "parkendpoint",
   "version" : "v1",
+  "description" : "Liste des grands parcs",
   "defaultVersion" : false,
   "adapter" : {
     "bns" : "https://ecohack.appspot.com/_ah/spi",

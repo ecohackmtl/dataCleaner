@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.and1droid.ecohack.bikesupport.BikeSupportReader;
+import com.and1droid.ecohack.bike.support.BikeSupportReader;
 
 public class BikeSupportReaderTest {
 

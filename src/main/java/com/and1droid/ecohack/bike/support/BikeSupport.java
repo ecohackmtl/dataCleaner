@@ -1,4 +1,4 @@
-package com.and1droid.ecohack.bikesupport;
+package com.and1droid.ecohack.bike.support;
 
 import javax.jdo.annotations.PrimaryKey;
 import javax.persistence.Entity;

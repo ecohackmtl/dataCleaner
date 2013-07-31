@@ -8,7 +8,7 @@ import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.ApiNamespace;
 import com.google.api.server.spi.response.CollectionResponse;
 
-@Api(name = "lightsendpoint", namespace = @ApiNamespace(ownerDomain = "ecohack.com", ownerName = "ecohack.com", packagePath = ""))
+@Api(name = "lightsendpoint", namespace = @ApiNamespace(ownerDomain = "and1droid.com", ownerName = "and1droid.com", packagePath = ""), description = "Liste des feux de signalisation")
 public class LightEndpoint {
 
     /**

@@ -1,11 +1,11 @@
-package com.and1droid.ecohack.bikesupport;
+package com.and1droid.ecohack.bike.support;
 
 import com.google.api.server.spi.config.Api;
 import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.ApiNamespace;
 import com.google.api.server.spi.response.CollectionResponse;
 
-@Api(name = "bikesupportendpoint", namespace = @ApiNamespace(ownerDomain = "and1droid.com", ownerName = "and1droid.com", packagePath = ""))
+@Api(name = "bikesupportendpoint", namespace = @ApiNamespace(ownerDomain = "and1droid.com", ownerName = "and1droid.com", packagePath = ""), description = "Liste des supports à vélo")
 public class BikeSupportEndpoint {
 
     /**

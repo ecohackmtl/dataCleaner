@@ -4,6 +4,7 @@
   "root" : "https://ecohack.appspot.com/_ah/api",
   "name" : "districtendpoint",
   "version" : "v1",
+  "description" : "Liste des arrondissements",
   "defaultVersion" : false,
   "adapter" : {
     "bns" : "https://ecohack.appspot.com/_ah/spi",
@@ -23,8 +24,8 @@
     "type" : "no-cache",
     "maxAge" : 0
   },
-  "ownerDomain" : "ecohack.com",
-  "ownerName" : "ecohack.com",
+  "ownerDomain" : "and1droid.com",
+  "ownerName" : "and1droid.com",
   "methods" : {
     "districtendpoint.listDistricts" : {
       "path" : "district",

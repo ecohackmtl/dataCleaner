@@ -5,7 +5,7 @@ import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.ApiNamespace;
 import com.google.api.server.spi.response.CollectionResponse;
 
-@Api(name = "buildingAccessibilityendpoint", namespace = @ApiNamespace(ownerDomain = "and1droid.com", ownerName = "and1droid.com", packagePath = ""), description = "Petit test de description")
+@Api(name = "buildingAccessibilityendpoint", namespace = @ApiNamespace(ownerDomain = "and1droid.com", ownerName = "and1droid.com", packagePath = ""), description = "Liste des buildings et de leur accessibilité")
 public class BuildingAccessibilityEndpoint {
 
     /**

@@ -4,6 +4,7 @@
   "root" : "https://ecohack.appspot.com/_ah/api",
   "name" : "ilotChaleurendpoint",
   "version" : "v1",
+  "description" : "Liste des ilots de chaleur",
   "defaultVersion" : false,
   "adapter" : {
     "bns" : "https://ecohack.appspot.com/_ah/spi",
@@ -25,7 +26,6 @@
   },
   "ownerDomain" : "and1droid.com",
   "ownerName" : "and1droid.com",
-  "packagePath" : "ecohack",
   "methods" : {
     "ilotChaleurendpoint.listIlotsChaleurs" : {
       "path" : "ilot",

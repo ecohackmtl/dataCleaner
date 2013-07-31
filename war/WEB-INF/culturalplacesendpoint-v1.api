@@ -2,9 +2,9 @@
   "extends" : "thirdParty.api",
   "abstract" : false,
   "root" : "https://ecohack.appspot.com/_ah/api",
-  "name" : "biketrackendpoint",
+  "name" : "culturalplacesendpoint",
   "version" : "v1",
-  "description" : "Liste des pistes cyclables",
+  "description" : "Liste des lieux culturels",
   "defaultVersion" : false,
   "adapter" : {
     "bns" : "https://ecohack.appspot.com/_ah/spi",
@@ -27,13 +27,13 @@
   "ownerDomain" : "and1droid.com",
   "ownerName" : "and1droid.com",
   "methods" : {
-    "biketrackendpoint.listBikeTracks" : {
-      "path" : "biketrack",
+    "culturalplacesendpoint.listCulturalPlaces" : {
+      "path" : "culturalplace",
       "httpMethod" : "GET",
       "scopes" : [ ],
       "audiences" : [ ],
       "clientIds" : [ ],
-      "rosyMethod" : "com.and1droid.ecohack.bike.track.BikeTrackEndpoint.listbikesTracks",
+      "rosyMethod" : "com.and1droid.ecohack.culturalplace.CulturalPlacesEndpoint.listCulturalPlaces",
       "request" : {
         "body" : "empty"
       },
@@ -44,14 +44,14 @@
   },
   "descriptor" : {
     "schemas" : {
-      "CollectionResponse_BikeTrack" : {
-        "id" : "CollectionResponse_BikeTrack",
+      "CollectionResponse_CulturalPlace" : {
+        "id" : "CollectionResponse_CulturalPlace",
         "type" : "object",
         "properties" : {
           "items" : {
             "type" : "array",
             "items" : {
-              "$ref" : "BikeTrack"
+              "$ref" : "CulturalPlace"
             }
           },
           "nextPageToken" : {
@@ -59,44 +59,56 @@
           }
         }
       },
-      "BikeTrack" : {
-        "id" : "BikeTrack",
+      "CulturalPlace" : {
+        "id" : "CulturalPlace",
         "type" : "object",
         "properties" : {
+          "id" : {
+            "type" : "integer"
+          },
+          "etat" : {
+            "type" : "string"
+          },
+          "district" : {
+            "type" : "string"
+          },
+          "type" : {
+            "type" : "string"
+          },
           "name" : {
             "type" : "string"
           },
-          "coordinates" : {
+          "address" : {
+            "type" : "string"
+          },
+          "zip" : {
+            "type" : "string"
+          },
+          "city" : {
+            "type" : "string"
+          },
+          "state" : {
+            "type" : "string"
+          },
+          "phones" : {
             "type" : "array",
             "items" : {
-              "$ref" : "Coordinate"
+              "type" : "string"
             }
           },
-          "id" : {
+          "website" : {
             "type" : "string"
-          }
-        }
-      },
-      "Coordinate" : {
-        "id" : "Coordinate",
-        "type" : "object",
-        "properties" : {
-          "longitude" : {
-            "type" : "number"
           },
-          "latitude" : {
-            "type" : "number"
-          },
-          "altitude" : {
-            "type" : "number"
+          "access" : {
+            "type" : "string"
           }
         }
       }
     },
     "methods" : {
-      "com.and1droid.ecohack.bike.track.BikeTrackEndpoint.listbikesTracks" : {
+      "com.and1droid.ecohack.culturalplace.CulturalPlacesEndpoint.listCulturalPlaces" : {
         "response" : {
-          "$ref" : "CollectionResponse_BikeTrack"
+          "$ref" : "CollectionResponse_CulturalPlace"
         }
       }
     }

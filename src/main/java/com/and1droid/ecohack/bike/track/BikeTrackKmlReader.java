@@ -1,4 +1,4 @@
-package com.and1droid.ecohack.biketrack;
+package com.and1droid.ecohack.bike.track;
 
 import com.and1droid.ecohack.tool.KMLReader;
 
@@ -11,7 +11,7 @@ public class BikeTrackKmlReader extends KMLReader<BikeTrack> {
 
     @Override
     protected String getFileName() {
-        return "biketrack/bike_track.kml";
+        return "bike/track/bike_track.kml";
     }
 
     @Override

@@ -6,7 +6,7 @@ import java.net.URISyntaxException;
 
 import org.junit.Test;
 
-import com.and1droid.ecohack.biketrack.BikeTrackKmlReader;
+import com.and1droid.ecohack.bike.track.BikeTrackKmlReader;
 
 public class BikeTrackReaderTest {
 

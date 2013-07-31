@@ -4,6 +4,7 @@
   "root" : "https://ecohack.appspot.com/_ah/api",
   "name" : "freesnowparkingendpoint",
   "version" : "v1",
+  "description" : "Liste des parking gratuits lors des déneigements",
   "defaultVersion" : false,
   "adapter" : {
     "bns" : "https://ecohack.appspot.com/_ah/spi",

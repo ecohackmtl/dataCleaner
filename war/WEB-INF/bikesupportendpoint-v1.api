@@ -4,6 +4,7 @@
   "root" : "https://ecohack.appspot.com/_ah/api",
   "name" : "bikesupportendpoint",
   "version" : "v1",
+  "description" : "Liste des supports à vélo",
   "defaultVersion" : false,
   "adapter" : {
     "bns" : "https://ecohack.appspot.com/_ah/spi",
@@ -32,7 +33,7 @@
       "scopes" : [ ],
       "audiences" : [ ],
       "clientIds" : [ ],
-      "rosyMethod" : "com.and1droid.ecohack.bikesupport.BikeSupportEndpoint.listBikeSupport",
+      "rosyMethod" : "com.and1droid.ecohack.bike.support.BikeSupportEndpoint.listBikeSupport",
       "request" : {
         "body" : "empty"
       },
@@ -144,7 +145,7 @@
       }
     },
     "methods" : {
-      "com.and1droid.ecohack.bikesupport.BikeSupportEndpoint.listBikeSupport" : {
+      "com.and1droid.ecohack.bike.support.BikeSupportEndpoint.listBikeSupport" : {
         "response" : {
           "$ref" : "CollectionResponse_BikeSupport"
         }

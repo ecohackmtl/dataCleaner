@@ -8,7 +8,7 @@ import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.ApiNamespace;
 import com.google.api.server.spi.response.CollectionResponse;
 
-@Api(name = "ilotChaleurendpoint", namespace = @ApiNamespace(ownerDomain = "and1droid.com", ownerName = "and1droid.com", packagePath = "ecohack"))
+@Api(name = "ilotChaleurendpoint", namespace = @ApiNamespace(ownerDomain = "and1droid.com", ownerName = "and1droid.com", packagePath = ""), description = "Liste des ilots de chaleur")
 public class IlotChaleurEndpoint {
 
     /**

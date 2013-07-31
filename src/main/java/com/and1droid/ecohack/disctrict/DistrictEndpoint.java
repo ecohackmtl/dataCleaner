@@ -14,7 +14,7 @@ import com.google.api.server.spi.response.CollectionResponse;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 
-@Api(name = "districtendpoint", namespace = @ApiNamespace(ownerDomain = "ecohack.com", ownerName = "ecohack.com", packagePath = ""))
+@Api(name = "districtendpoint", namespace = @ApiNamespace(ownerDomain = "and1droid.com", ownerName = "and1droid.com", packagePath = ""), description = "Liste des arrondissements")
 public class DistrictEndpoint {
 
     /**

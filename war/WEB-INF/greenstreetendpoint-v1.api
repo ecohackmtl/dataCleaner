@@ -4,6 +4,7 @@
   "root" : "https://ecohack.appspot.com/_ah/api",
   "name" : "greenstreetendpoint",
   "version" : "v1",
+  "description" : "Liste des ruelles vertes",
   "defaultVersion" : false,
   "adapter" : {
     "bns" : "https://ecohack.appspot.com/_ah/spi",
@@ -23,8 +24,8 @@
     "type" : "no-cache",
     "maxAge" : 0
   },
-  "ownerDomain" : "vdfvdfvdfvdfvdfvdf.com",
-  "ownerName" : "vdfvdfvdfvdfvdfvdf.com",
+  "ownerDomain" : "and1droid.com",
+  "ownerName" : "and1droid.com",
   "methods" : {
     "greenstreetendpoint.listGreenStreet" : {
       "path" : "greenstreet",
