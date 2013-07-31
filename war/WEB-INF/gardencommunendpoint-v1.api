@@ -1,0 +1,92 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://pure-iris-293.appspot.com/_ah/api",
+  "name" : "gardencommunendpoint",
+  "version" : "v1",
+  "description" : "Liste des jardins communautaires",
+  "defaultVersion" : false,
+  "adapter" : {
+    "bns" : "https://pure-iris-293.appspot.com/_ah/spi",
+    "deadline" : 10.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "ownerDomain" : "and1droid.com",
+  "ownerName" : "and1droid.com",
+  "methods" : {
+    "gardencommunendpoint.listGardenCommun" : {
+      "path" : "commungarden",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ ],
+      "clientIds" : [ ],
+      "rosyMethod" : "com.and1droid.ecohack.garden.commun.GardenCommunEndpoint.listGardenCommun",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "CollectionResponse_CommunGarden" : {
+        "id" : "CollectionResponse_CommunGarden",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "CommunGarden"
+            }
+          },
+          "nextPageToken" : {
+            "type" : "string"
+          }
+        }
+      },
+      "CommunGarden" : {
+        "id" : "CommunGarden",
+        "type" : "object",
+        "properties" : {
+          "gardenId" : {
+            "type" : "string"
+          },
+          "name" : {
+            "type" : "string"
+          },
+          "district" : {
+            "type" : "string"
+          },
+          "boundaries" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+    },
+    "methods" : {
+      "com.and1droid.ecohack.garden.commun.GardenCommunEndpoint.listGardenCommun" : {
+        "response" : {
+          "$ref" : "CollectionResponse_CommunGarden"
+        }
+      }
+    }
+  }
+}

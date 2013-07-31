@@ -1,13 +1,13 @@
 {
   "extends" : "thirdParty.api",
   "abstract" : false,
-  "root" : "https://ecohack.appspot.com/_ah/api",
+  "root" : "https://pure-iris-293.appspot.com/_ah/api",
   "name" : "gardenendpoint",
   "version" : "v1",
-  "description" : "Liste des jardins",
+  "description" : "Liste des jardins issues d'initiatives",
   "defaultVersion" : false,
   "adapter" : {
-    "bns" : "https://ecohack.appspot.com/_ah/spi",
+    "bns" : "https://pure-iris-293.appspot.com/_ah/spi",
     "deadline" : 10.0,
     "type" : "lily"
   },
@@ -33,7 +33,7 @@
       "scopes" : [ ],
       "audiences" : [ ],
       "clientIds" : [ ],
-      "rosyMethod" : "com.and1droid.ecohack.garden.GardenEndpoint.listGarden",
+      "rosyMethod" : "com.and1droid.ecohack.garden.initiatives.GardenEndpoint.listGarden",
       "request" : {
         "body" : "empty"
       },
@@ -91,7 +91,7 @@
       }
     },
     "methods" : {
-      "com.and1droid.ecohack.garden.GardenEndpoint.listGarden" : {
+      "com.and1droid.ecohack.garden.initiatives.GardenEndpoint.listGarden" : {
         "response" : {
           "$ref" : "CollectionResponse_Garden"
         }

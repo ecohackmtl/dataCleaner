@@ -8,8 +8,8 @@ import diewald_shapeFile.shapeFile.ShapeFile;
 
 public class ShapeFileReaderTest {
 
-    private static final String fileName = "GrandsParcs130218";
-    static String folder = System.getProperty("user.dir") + "/ecohack/parks/";
+    private static final String fileName = "Jardins_communautaires";
+    static String folder = System.getProperty("user.dir") + "/ecohack/garden/";
 
     public static void main(String[] args) {
         DBF_File.LOG_INFO = !false;

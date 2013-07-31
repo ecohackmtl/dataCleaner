@@ -1,0 +1,177 @@
+{
+ "kind": "discovery#restDescription",
+ "etag": "\"nPbVolg1F8jpPe9kkErPtt8mpZE/zDrrrVGWc5XKpWXmh-TQiMmmGQ8\"",
+ "discoveryVersion": "v1",
+ "id": "bikesupportendpoint:v1",
+ "name": "bikesupportendpoint",
+ "version": "v1",
+ "description": "Liste des supports à vélo",
+ "ownerDomain": "and1droid.com",
+ "ownerName": "and1droid.com",
+ "icons": {
+  "x16": "http://www.google.com/images/icons/product/search-16.gif",
+  "x32": "http://www.google.com/images/icons/product/search-32.gif"
+ },
+ "protocol": "rest",
+ "baseUrl": "https://pure-iris-293.appspot.com/_ah/api/bikesupportendpoint/v1/",
+ "basePath": "/_ah/api/bikesupportendpoint/v1/",
+ "rootUrl": "https://pure-iris-293.appspot.com/_ah/api/",
+ "servicePath": "bikesupportendpoint/v1/",
+ "batchPath": "batch",
+ "parameters": {
+  "alt": {
+   "type": "string",
+   "description": "Data format for the response.",
+   "default": "json",
+   "enum": [
+    "json"
+   ],
+   "enumDescriptions": [
+    "Responses with Content-Type of application/json"
+   ],
+   "location": "query"
+  },
+  "fields": {
+   "type": "string",
+   "description": "Selector specifying which fields to include in a partial response.",
+   "location": "query"
+  },
+  "key": {
+   "type": "string",
+   "description": "API key. Your API key identifies your project and provides you with API access, quota, and reports. Required unless you provide an OAuth 2.0 token.",
+   "location": "query"
+  },
+  "oauth_token": {
+   "type": "string",
+   "description": "OAuth 2.0 token for the current user.",
+   "location": "query"
+  },
+  "prettyPrint": {
+   "type": "boolean",
+   "description": "Returns response with indentations and line breaks.",
+   "default": "true",
+   "location": "query"
+  },
+  "quotaUser": {
+   "type": "string",
+   "description": "Available to use for quota purposes for server-side applications. Can be any arbitrary string assigned to a user, but should not exceed 40 characters. Overrides userIp if both are provided.",
+   "location": "query"
+  },
+  "userIp": {
+   "type": "string",
+   "description": "IP address of the site where the request originates. Use this if you want to enforce per-user limits.",
+   "location": "query"
+  }
+ },
+ "schemas": {
+  "BikeSupport": {
+   "id": "BikeSupport",
+   "type": "object",
+   "properties": {
+    "aire": {
+     "type": "string"
+    },
+    "anc_num": {
+     "type": "string"
+    },
+    "ancrage": {
+     "type": "string"
+    },
+    "base": {
+     "type": "string"
+    },
+    "categorie": {
+     "type": "string"
+    },
+    "catl_modele": {
+     "type": "string"
+    },
+    "ce_no": {
+     "type": "string"
+    },
+    "condition": {
+     "type": "string"
+    },
+    "couleur": {
+     "type": "string"
+    },
+    "element": {
+     "type": "string"
+    },
+    "empl_id": {
+     "type": "string"
+    },
+    "empl_x": {
+     "type": "string"
+    },
+    "empl_y": {
+     "type": "string"
+    },
+    "empl_z": {
+     "type": "string"
+    },
+    "intervention": {
+     "type": "string"
+    },
+    "inv_catl_no": {
+     "type": "string"
+    },
+    "inv_id": {
+     "type": "string"
+    },
+    "inv_no": {
+     "type": "string"
+    },
+    "lat": {
+     "type": "string"
+    },
+    "lon": {
+     "type": "string"
+    },
+    "marq": {
+     "type": "string"
+    },
+    "materiau": {
+     "type": "string"
+    },
+    "ordre_affichage": {
+     "type": "string"
+    },
+    "parc": {
+     "type": "string"
+    },
+    "statut": {
+     "type": "string"
+    },
+    "territoire": {
+     "type": "string"
+    }
+   }
+  },
+  "CollectionResponse_BikeSupport": {
+   "id": "CollectionResponse_BikeSupport",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "BikeSupport"
+     }
+    },
+    "nextPageToken": {
+     "type": "string"
+    }
+   }
+  }
+ },
+ "methods": {
+  "listBikeSupport": {
+   "id": "bikesupportendpoint.listBikeSupport",
+   "path": "bikesupport",
+   "httpMethod": "GET",
+   "response": {
+    "$ref": "CollectionResponse_BikeSupport"
+   }
+  }
+ }
+}

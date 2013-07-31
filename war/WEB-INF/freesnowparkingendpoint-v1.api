@@ -1,13 +1,13 @@
 {
   "extends" : "thirdParty.api",
   "abstract" : false,
-  "root" : "https://ecohack.appspot.com/_ah/api",
+  "root" : "https://pure-iris-293.appspot.com/_ah/api",
   "name" : "freesnowparkingendpoint",
   "version" : "v1",
   "description" : "Liste des parking gratuits lors des déneigements",
   "defaultVersion" : false,
   "adapter" : {
-    "bns" : "https://ecohack.appspot.com/_ah/spi",
+    "bns" : "https://pure-iris-293.appspot.com/_ah/spi",
     "deadline" : 10.0,
     "type" : "lily"
   },

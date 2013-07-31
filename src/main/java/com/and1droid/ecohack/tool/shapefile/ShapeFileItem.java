@@ -6,6 +6,7 @@ public class ShapeFileItem {
     private String name;
 
     protected double[][][] points;
+    private String description;
 
     public ShapeFileItem() {
     }
@@ -40,5 +41,13 @@ public class ShapeFileItem {
 
     public String getIdField() {
         return "id";
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
     }
 }

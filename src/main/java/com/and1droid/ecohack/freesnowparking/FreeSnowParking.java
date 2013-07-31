@@ -2,7 +2,6 @@ package com.and1droid.ecohack.freesnowparking;
 
 import javax.persistence.Entity;
 
-@Entity
 public class FreeSnowParking {
 
     private String lon;

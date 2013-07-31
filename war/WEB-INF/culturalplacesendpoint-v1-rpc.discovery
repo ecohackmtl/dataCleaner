@@ -1,0 +1,136 @@
+{
+ "kind": "discovery#rpcDescription",
+ "etag": "\"nPbVolg1F8jpPe9kkErPtt8mpZE/4r3VGnycoeg8E7bn0IdZoWUq4AQ\"",
+ "discoveryVersion": "v1",
+ "id": "culturalplacesendpoint:v1",
+ "name": "culturalplacesendpoint",
+ "version": "v1",
+ "description": "Liste des lieux culturels",
+ "ownerDomain": "and1droid.com",
+ "ownerName": "and1droid.com",
+ "icons": {
+  "x16": "http://www.google.com/images/icons/product/search-16.gif",
+  "x32": "http://www.google.com/images/icons/product/search-32.gif"
+ },
+ "protocol": "rpc",
+ "rootUrl": "https://pure-iris-293.appspot.com/_ah/api/",
+ "rpcUrl": "https://pure-iris-293.appspot.com/_ah/api/rpc",
+ "rpcPath": "/_ah/api/rpc",
+ "parameters": {
+  "alt": {
+   "type": "string",
+   "description": "Data format for the response.",
+   "default": "json",
+   "enum": [
+    "json"
+   ],
+   "enumDescriptions": [
+    "Responses with Content-Type of application/json"
+   ],
+   "location": "query"
+  },
+  "fields": {
+   "type": "string",
+   "description": "Selector specifying which fields to include in a partial response.",
+   "location": "query"
+  },
+  "key": {
+   "type": "string",
+   "description": "API key. Your API key identifies your project and provides you with API access, quota, and reports. Required unless you provide an OAuth 2.0 token.",
+   "location": "query"
+  },
+  "oauth_token": {
+   "type": "string",
+   "description": "OAuth 2.0 token for the current user.",
+   "location": "query"
+  },
+  "prettyPrint": {
+   "type": "boolean",
+   "description": "Returns response with indentations and line breaks.",
+   "default": "true",
+   "location": "query"
+  },
+  "quotaUser": {
+   "type": "string",
+   "description": "Available to use for quota purposes for server-side applications. Can be any arbitrary string assigned to a user, but should not exceed 40 characters. Overrides userIp if both are provided.",
+   "location": "query"
+  },
+  "userIp": {
+   "type": "string",
+   "description": "IP address of the site where the request originates. Use this if you want to enforce per-user limits.",
+   "location": "query"
+  }
+ },
+ "schemas": {
+  "CollectionResponse_CulturalPlace": {
+   "id": "CollectionResponse_CulturalPlace",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "CulturalPlace"
+     }
+    },
+    "nextPageToken": {
+     "type": "string"
+    }
+   }
+  },
+  "CulturalPlace": {
+   "id": "CulturalPlace",
+   "type": "object",
+   "properties": {
+    "access": {
+     "type": "string"
+    },
+    "address": {
+     "type": "string"
+    },
+    "city": {
+     "type": "string"
+    },
+    "district": {
+     "type": "string"
+    },
+    "etat": {
+     "type": "string"
+    },
+    "id": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "name": {
+     "type": "string"
+    },
+    "phones": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "state": {
+     "type": "string"
+    },
+    "type": {
+     "type": "string"
+    },
+    "website": {
+     "type": "string"
+    },
+    "zip": {
+     "type": "string"
+    }
+   }
+  }
+ },
+ "methods": {
+  "culturalplacesendpoint.listCulturalPlaces": {
+   "id": "culturalplacesendpoint.listCulturalPlaces",
+   "allowGet": true,
+   "returns": {
+    "$ref": "CollectionResponse_CulturalPlace"
+   }
+  }
+ }
+}
