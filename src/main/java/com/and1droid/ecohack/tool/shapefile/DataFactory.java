@@ -5,7 +5,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 import com.and1droid.ecohack.ilot.Ilot;
-import com.and1droid.ecohack.park.Park;
+import com.and1droid.ecohack.parks.Park;
 
 public class DataFactory {
 

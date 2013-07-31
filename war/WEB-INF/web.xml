@@ -15,7 +15,7 @@
   <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
   <init-param>
    <param-name>services</param-name>
-   <param-value>com.and1droid.ecohack.bikesupport.BikeSupportEndpoint,com.and1droid.ecohack.biketrack.BikeTrackEndpoint,com.and1droid.ecohack.disctrict.DistrictEndpoint,com.and1droid.ecohack.garden.GardenEndpoint,com.and1droid.ecohack.greenstreet.GreenStreetEndpoint,com.and1droid.ecohack.ilot.chaleur.IlotChaleurEndpoint,com.and1droid.ecohack.lights.LightEndpoint,com.and1droid.ecohack.park.ParkEndpoint</param-value>
+   <param-value>com.and1droid.ecohack.bikesupport.BikeSupportEndpoint,com.and1droid.ecohack.biketrack.BikeTrackEndpoint,com.and1droid.ecohack.disctrict.DistrictEndpoint,com.and1droid.ecohack.freesnowparking.BikeSupportEndpoint,com.and1droid.ecohack.garden.GardenEndpoint,com.and1droid.ecohack.greenstreet.GreenStreetEndpoint,com.and1droid.ecohack.ilot.chaleur.IlotChaleurEndpoint,com.and1droid.ecohack.lights.LightEndpoint,com.and1droid.ecohack.parks.ParkEndpoint</param-value>
   </init-param>
  </servlet>
  <servlet-mapping>

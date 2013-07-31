@@ -23,7 +23,7 @@
  * Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
-package com.and1droid.ecohack.park;
+package com.and1droid.ecohack.parks;
 
 import com.and1droid.ecohack.tool.shapefile.ShapeFileItem;
 import com.and1droid.ecohack.tool.shapefile.ShapeFileReader;

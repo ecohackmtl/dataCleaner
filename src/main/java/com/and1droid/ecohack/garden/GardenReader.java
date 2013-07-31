@@ -9,7 +9,7 @@ public class GardenReader extends KMLReader<Garden> {
 
     @Override
     protected String getFileName() {
-        return "urban_agri/Initiativesenagricultureurbaine.kml";
+        return "garden/Initiativesenagricultureurbaine.kml";
     }
 
     @Override

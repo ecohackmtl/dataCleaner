@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.and1droid.ecohack.park.ParkShapeFileReader;
+import com.and1droid.ecohack.parks.ParkShapeFileReader;
 import com.and1droid.ecohack.tool.shapefile.ShapeFileItem;
 import com.google.gson.Gson;
 

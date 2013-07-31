@@ -1,4 +1,4 @@
-package com.and1droid.ecohack.park;
+package com.and1droid.ecohack.parks;
 
 import java.util.List;
 

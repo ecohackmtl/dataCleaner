@@ -11,7 +11,7 @@ public class BikeTrackKmlReader extends KMLReader<BikeTrack> {
 
     @Override
     protected String getFileName() {
-        return "bike_track/bike_track.kml";
+        return "biketrack/bike_track.kml";
     }
 
     @Override

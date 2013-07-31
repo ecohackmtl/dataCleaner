@@ -39,7 +39,7 @@ public class BikeSupportReader extends CsvReader<BikeSupport> {
 
     @Override
     protected String getFileName() {
-        return "bike_support/support_velo_sigs.csv";
+        return "bikesupport/support_velo_sigs.csv";
     }
 
 }

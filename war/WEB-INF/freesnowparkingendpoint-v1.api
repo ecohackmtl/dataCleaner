@@ -2,7 +2,7 @@
   "extends" : "thirdParty.api",
   "abstract" : false,
   "root" : "https://ecohack.appspot.com/_ah/api",
-  "name" : "parkendpoint",
+  "name" : "freesnowparkingendpoint",
   "version" : "v1",
   "defaultVersion" : false,
   "adapter" : {
@@ -25,15 +25,14 @@
   },
   "ownerDomain" : "and1droid.com",
   "ownerName" : "and1droid.com",
-  "packagePath" : "ecohack",
   "methods" : {
-    "parkendpoint.listPark" : {
-      "path" : "park",
+    "freesnowparkingendpoint.listFreeSnowParking" : {
+      "path" : "freesnowparking",
       "httpMethod" : "GET",
       "scopes" : [ ],
       "audiences" : [ ],
       "clientIds" : [ ],
-      "rosyMethod" : "com.and1droid.ecohack.parks.ParkEndpoint.listPark",
+      "rosyMethod" : "com.and1droid.ecohack.freesnowparking.BikeSupportEndpoint.listFreeSnowParking",
       "request" : {
         "body" : "empty"
       },
@@ -44,14 +43,14 @@
   },
   "descriptor" : {
     "schemas" : {
-      "CollectionResponse_Park" : {
-        "id" : "CollectionResponse_Park",
+      "CollectionResponse_FreeSnowParking" : {
+        "id" : "CollectionResponse_FreeSnowParking",
         "type" : "object",
         "properties" : {
           "items" : {
             "type" : "array",
             "items" : {
-              "$ref" : "Park"
+              "$ref" : "FreeSnowParking"
             }
           },
           "nextPageToken" : {
@@ -59,32 +58,23 @@
           }
         }
       },
-      "Park" : {
-        "id" : "Park",
+      "FreeSnowParking" : {
+        "id" : "FreeSnowParking",
         "type" : "object",
         "properties" : {
-          "name" : {
+          "lon" : {
             "type" : "string"
           },
-          "boundaries" : {
-            "type" : "array",
-            "items" : {
-              "type" : "string"
-            }
-          },
-          "id" : {
-            "type" : "string"
-          },
-          "idField" : {
+          "lat" : {
             "type" : "string"
           }
         }
       }
     },
     "methods" : {
-      "com.and1droid.ecohack.parks.ParkEndpoint.listPark" : {
+      "com.and1droid.ecohack.freesnowparking.BikeSupportEndpoint.listFreeSnowParking" : {
         "response" : {
-          "$ref" : "CollectionResponse_Park"
+          "$ref" : "CollectionResponse_FreeSnowParking"
         }
       }
     }

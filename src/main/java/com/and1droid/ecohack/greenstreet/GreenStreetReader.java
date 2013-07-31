@@ -9,7 +9,7 @@ public class GreenStreetReader extends KMLReader<GreenStreet> {
 
     @Override
     protected String getFileName() {
-        return "green_street/Ruellesvertes.kml";
+        return "greenstreet/Ruellesvertes.kml";
     }
 
     @Override

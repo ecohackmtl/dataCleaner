@@ -8,7 +8,7 @@ import java.io.UnsupportedEncodingException;
 
 import org.junit.Test;
 
-import com.and1droid.ecohack.park.Park;
+import com.and1droid.ecohack.parks.Park;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 
